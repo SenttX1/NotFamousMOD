@@ -598,7 +598,7 @@
       },
       "explosion": {
           "0": ["pyroEffects/explosion0", 39, 0, true],
-          "SmartBomb": ["pyroEffects/smartBomb", 213, 1, true]
+          "SmartBomb": ["pyroEffects/smartBomb", 60, 1, true]
       },
       "mine": {
           "0": ["pyroEffects/mine0", 40, 1, true],
