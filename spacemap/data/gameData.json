@@ -538,16 +538,16 @@
     "TITLE_FONT_IMPORTANT": "bold 16px CorpFontRegular",
     "COLLECTION_FONT": "bold 20px CorpFontRegular"
   },
-  "titleColors": {
-    "default": "#fefe00",
-    "silver": "#CCCCCC",
-    "bronze": "#CD7F32",
-    "red": "red",
-    "blue": "#3b5998",
-    "purple": "#9a03fc",
-    "darkgreen": "#1a6208",
-    "gold": "#fefe00"
-  },
+    "titleColors": {
+        "default": "#fefe00",
+        "silver": "#CCCCCC",
+        "bronze": "#CD7F32",
+        "red": "red",
+        "blue": "#3b5998",
+        "purple": "#9a03fc",
+        "darkgreen": "#fefe00",
+        "gold": "#fefe00"
+    },
   "Portals": {
     "0": {
       "name": "portal_std",
