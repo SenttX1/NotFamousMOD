@@ -607,9 +607,9 @@
           "4": ["pyroEffects/mine4", 29, 1, true]
       },
       "firework": {
-          "1": ["sfx/firework1", 80, 1, true],
-          "2": ["sfx/firework2", 80, 1, true],
-          "3": ["sfx/firework3", 80, 1, true]
+          "1": ["sfx/firework1", 70, 1, true],
+          "2": ["sfx/firework2", 75, 1, true],
+          "3": ["sfx/firework3", 75, 1, true]
       }
   },
   "shields": {
