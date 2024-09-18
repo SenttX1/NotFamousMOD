@@ -110,7 +110,8 @@
     "109": {"engineClass": 39, "lockOffsetY": 20, "laserClass": 80, "offsetId": 37, "clickRadius": 70},
     "110": {"engineClass": 40, "laserClass": 81, "offsetId": 19},
     "111": {"engineClass": 40, "laserClass": 81, "offsetId": 19},
-    "112": {"engineClass": 40, "laserClass": 81, "offsetId": 19}
+    "112": {"engineClass": 40, "laserClass": 81, "offsetId": 19},
+    "113": {"cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "canBeLocked": false}
   },  
   "offsets": {
     "EXPANSION_OFFSETS": {
