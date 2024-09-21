@@ -1374,6 +1374,7 @@
   .admin,
   .assembly,
   .report,
+  .trade,
   .pal,
   .help {
     top: 0;
@@ -1558,6 +1559,7 @@
   .chat,
   .admin,
   .report,
+  .trade,
   .boosters,
   .arena,
   .pilotsheet,
@@ -8268,6 +8270,10 @@
     background-color: var(--default-text-blue);
     height: 4px;
     margin-right: -2px;
+  }
+
+  .trade span {
+    margin: 0;
   }
 
   
