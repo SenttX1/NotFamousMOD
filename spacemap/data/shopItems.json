@@ -142,5 +142,13 @@
         "16": {"name": "CD-B02","icon": "cd-b02", "desc": "cd-b02_shop_desc"},
         "17": {"name": "BOX-B01","icon": "box-b01", "desc": "box-b01_shop_desc"},
         "18": {"name": "QUEST-B01","icon": "quest-b01", "desc": "quest-b01_shop_desc"}
-    }
+    },
+    "12": {
+        "1": {"name": "MHON-01","icon": "hon", "desc": "mhon-01"},
+        "2": {"name": "MN-01","icon": "neon", "desc": "mn-01"},
+        "3": {"name": "MX-01","icon": "xp", "desc": "mx-01"},
+        "4": {"name": "MD-01","icon": "dmg", "desc": "md-01"},
+        "5": {"name": "MH-01","icon": "hp", "desc": "mh-01"},
+        "6": {"name": "MS-01","icon": "shd", "desc": "ms-01"}
+    } 
 }
