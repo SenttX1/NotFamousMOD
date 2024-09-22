@@ -7917,12 +7917,12 @@
   }
   
   /* Arrow icon for the dropdown */
-  .custom-select .select-style::after {
-    content: 'â–¼';
-    margin-left: 5px;
-    position: relative;
-    margin-top: 2px;
-  }
+    .custom-select .select-style::after {
+        content: '▼';
+        margin-left: 5px;
+        position: relative;
+        margin-top: 2px;
+    }
   
   /* Dropdown options */
   .custom-select .options {
