@@ -364,7 +364,7 @@
       "0": ["balls/cup", 31, 1]
   },
     "ranks": {
-        "0": [ "ui/rank/0", 0, 0, false, true, true, true ],
+        "0": [ "ui/rank/0", 0, 0 ],
         "1": [ "ui/rank/1", 0, 0 ],
         "2": [ "ui/rank/2", 0, 0 ],
         "3": [ "ui/rank/3", 0, 0 ],
