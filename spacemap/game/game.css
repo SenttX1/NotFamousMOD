@@ -91,10 +91,10 @@
     src: url("https://ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
   }
 
-  @font-face {
+@font-face {
     font-family: "CorpFontUsername";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
-  }
+    src: url("https://notfamous.ariaom/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
+}
   
   .circle-bg { 
     width: 400px;
