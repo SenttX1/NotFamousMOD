@@ -516,18 +516,18 @@
       }
     }
   },
-  "colors": {
-    "HP_COLOR": "#49BE40",
-    "SHD_COLOR": "#338FCC",
-    "STRUCTURE_BG": "#6D6D6D",
-    "COLOR_ENEMY": "red",
-    "COLOR_ALLY": "#7CFC00",
-    "COLOR_HERO": "white",
-    "COLOR_GROUP": "#FFD700",
-    "COLOR_ALLY_FACTION": "#0099ff",
-    "COLOR_HAVOC": "#FF0000",
-    "COLOR_HERCULES": "#328fcc"
-  },
+    "colors": {
+        "HP_COLOR": "#49BE40",
+        "SHD_COLOR": "#338FCC",
+        "STRUCTURE_BG": "#6D6D6D",
+        "COLOR_ENEMY": "red",
+        "COLOR_ALLY": "#7CFC00",
+        "COLOR_HERO": "#ededed",
+        "COLOR_GROUP": "#FFD700",
+        "COLOR_ALLY_FACTION": "#0099ff",
+        "COLOR_HAVOC": "#FF0000",
+        "COLOR_HERCULES": "#328fcc"
+    },
   "defaults": {
     "BOT_RADIUS": 50,
     "RLAUNCHER_RADIUS": 500,
