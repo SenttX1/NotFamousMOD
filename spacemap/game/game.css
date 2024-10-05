@@ -93,7 +93,7 @@
 
 @font-face {
     font-family: "CorpFontUsername";
-    src: url("https://notfamous.ariaom.com/spacemap/fonts/TahomaFont.TTF") format('truetype');
+    src: url("https://notfamous.ariaom.com/spacemap/fonts/TahomaFont.ttf") format('truetype');
 }
   
   .circle-bg { 
