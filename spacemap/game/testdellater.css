@@ -93,7 +93,13 @@
 
 @font-face {
     font-family: "CorpFontUsername";
-    src: url("https://notfamous.ariaom.com/spacemap/fonts/VerdanaBold.ttf") format('truetype');
+    src: url("https://ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
+}
+
+.username {
+    font-family: "CorpFontUsername";
+    color: rgba(255, 255, 255, 0.8); /* Čierna farba s 50% priehľadnosťou */
+    font-size: 17px; /* Alebo akýkoľvek iný font-size */
 }
   
   .circle-bg { 
