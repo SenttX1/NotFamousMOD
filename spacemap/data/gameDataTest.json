@@ -522,7 +522,7 @@
         "STRUCTURE_BG": "#6D6D6D",
         "COLOR_ENEMY": "red",
         "COLOR_ALLY": "#7CFC00",
-        "COLOR_HERO": "rgba(255, 255, 255, 0.85)",
+        "COLOR_HERO": "rgba(255, 255, 255, 0.93)",
         "COLOR_GROUP": "#FFD700",
         "COLOR_ALLY_FACTION": "#0099ff",
         "COLOR_HAVOC": "#FF0000",
