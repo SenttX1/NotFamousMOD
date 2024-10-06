@@ -96,13 +96,13 @@
     src: url("https://ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
 }
 
-.username {
+.hero-text {
     font-family: "CorpFontUsername";
-    color: rgba(255, 255, 255, 0.8); /* Čierna farba s 50% priehľadnosťou */
-    font-size: 17px; /* Alebo akýkoľvek iný font-size */
-}
-  
-  .circle-bg { 
+    font-size: 17px; /* Toto je veľkosť z JSON pre "COLOR_HERO" */
+    color: rgba(255, 255, 255, 0.95); /* COLOR_HERO z JSON */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Pridanie tieňa */
+
+    .circle-bg { 
     width: 400px;
     height: 400px;
     background: transparent; 
