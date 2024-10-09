@@ -97,7 +97,7 @@
   }
 
 * {
-    font-family: "CorpFontUsername", EurostileHeaFl; /* Tímto se zajistí, že všechny texty používají tento font */
+    font-family: "CorpFontUsername", "EurostileHeaFl"; /* Tímto se zajistí, že všechny texty používají tento font */
 }
 
 body {
