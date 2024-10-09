@@ -105,7 +105,7 @@ body {
 }
 
 body {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Přidání textového stínu pro celé tělo */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Přidání textového stínu pro celé tělo */
 }
   
   .circle-bg { 
