@@ -1388,5 +1388,15 @@
     "recipe_12": "RC-MD-01",
     "recipe_13": "RC-MH-01",
     "recipe_14": "RC-MS-01",
-    "q_obtain_ore": "Obtain %TARGET ore/s"
+    "q_obtain_ore": "Obtain %TARGET ore/s",
+    "ggold": "G-Gold",
+    "place": "Place",
+    "gsilver": "G-Silver",
+    "gbronze": "G-Bronze",
+    "title_30": "Competitive Champion",
+    "action_illegal_in_q": "This action is not allowed while in queue!",
+    "no_season": "There is no ongoing competitive season at the moment",
+    "jackolanterium": "Jack-O-Lanterium",
+    "dd_demon": "Haunt-Voc drone design<br>Increases missile damage by 1.5% per equipped design<br>When equipped on G-Spooky, bonus is 2.5%",
+    "recipe_15": "RC-F-BAT"
 }
