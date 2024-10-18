@@ -44,6 +44,7 @@
         "82": {"name": "G-Germany", "icon": "ggerman", "desc": "ggerman_shop_desc"},
         "83": {"name": "G-Referee", "icon": "referee", "desc": "referee_shop_desc"},
         "95": {"name": "G-RGB Phantasm", "icon": "rgbg", "desc": "rgbg_shop_desc"},
+        "94": { "desc": "space_shop_desc", "icon": "space", "name": "G-Space" },
         "81": {"name": "G-Saturn", "icon": "saturn", "desc": "saturn_shop_desc"},
         "106": {"name": "N-Starhawk", "icon": "nenvoy", "desc": "nstarhawk_shop_desc"},
         "107": {"name": "G-Plus Neikos", "icon": "gtech", "desc": "gtech_shop_desc"},

@@ -756,6 +756,15 @@
       },
       "zeus_hercules": {
           "6": ["drones/designs/hercules/zeus/6", 32, 0, true]
+      },
+      "iris_hauntvoc": {
+          "6": [ "drones/designs/demon/zeus/", 32, 0, true ]
+      },
+      "apis_hauntvoc": {
+          "6": [ "drones/designs/demon/zeus/", 32, 0, true ]
+      },
+      "zeus_hauntvoc": {
+          "6": [ "drones/designs/demon/zeus/", 32, 0, true ]
       }
   },
   "engines": {

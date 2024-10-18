@@ -1621,21 +1621,24 @@
     "stations": []
   },
   "257": {
-    "useMap": 82,
-    "name": "Duos Competetive"
+        "bg": 255,
+        "name": "Duos Competetive",
+        "scale": 0.5,
+        "useMap": 255,
+        "useMapBg": true
   },
   "256": {
-    "useMap": 254,
-    "name": "Full Team Competetive"
+        "bg": 255,
+        "name": "Full Team Competetive",
+        "useMap": 255,
+        "useMapBg": true
   },
   "255": {
-    "name": "Duel Competetive",
-    "scale": 0.25,
-    "portals": [],
-    "lensflares": [],
-    "planets": [],
-    "nebulas": [],
-    "stations": []
+        "bg": 255,
+        "name": "Duel Competetive",
+        "scale": 0.25,
+        "useMap": 255,
+        "useMapBg": true
   },
   "30": {
     "name": "Spaceball I",
@@ -1665,6 +1668,253 @@
     "nebulas": [],
     "stations": []
   },
+    "355": {
+        "allowGroupFire": false,
+        "barriers": [
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 12000,
+                "xStart": 11750,
+                "yEnd": 6750,
+                "yStart": 6500
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 11000,
+                "xStart": 10750,
+                "yEnd": 5875,
+                "yStart": 5625
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 11000,
+                "xStart": 10750,
+                "yEnd": 7625,
+                "yStart": 7375
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 10000,
+                "xStart": 9750,
+                "yEnd": 6750,
+                "yStart": 6500
+            },
+            {
+                "height": 350,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 2000,
+                "xEnd": 18000,
+                "xStart": 16000,
+                "yEnd": 6000,
+                "yStart": 5650
+            },
+            {
+                "height": 350,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 2000,
+                "xEnd": 18000,
+                "xStart": 16000,
+                "yEnd": 7350,
+                "yStart": 7000
+            },
+            {
+                "height": 350,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 2000,
+                "xEnd": 5000,
+                "xStart": 3000,
+                "yEnd": 6000,
+                "yStart": 5650
+            },
+            {
+                "height": 350,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 2000,
+                "xEnd": 5000,
+                "xStart": 3000,
+                "yEnd": 7350,
+                "yStart": 7000
+            },
+            {
+                "height": 750,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 15125,
+                "xStart": 14875,
+                "yEnd": 6875,
+                "yStart": 6125
+            },
+            {
+                "height": 750,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 250,
+                "xEnd": 6125,
+                "xStart": 5875,
+                "yEnd": 6875,
+                "yStart": 6125
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 750,
+                "xEnd": 14375,
+                "xStart": 13625,
+                "yEnd": 6000,
+                "yStart": 5750
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 750,
+                "xEnd": 14375,
+                "xStart": 13625,
+                "yEnd": 7250,
+                "yStart": 7000
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 750,
+                "xEnd": 7375,
+                "xStart": 6625,
+                "yEnd": 6000,
+                "yStart": 5750
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 750,
+                "xEnd": 7375,
+                "xStart": 6625,
+                "yEnd": 7250,
+                "yStart": 7000
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 7750,
+                "xEnd": 14375,
+                "xStart": 6625,
+                "yEnd": 4550,
+                "yStart": 4300
+            },
+            {
+                "height": 250,
+                "id": 0,
+                "radius": 0,
+                "rectangle": true,
+                "width": 7750,
+                "xEnd": 14375,
+                "xStart": 6625,
+                "yEnd": 8700,
+                "yStart": 8450
+            }
+        ],
+        "bg": 355,
+        "fogOfWar": true,
+        "lensflares": [
+            {
+                "id": "1",
+                "x": "950",
+                "y": "650",
+                "z": "10"
+            }
+        ],
+        "name": "Tunnel of Terror",
+        "nebulas": [
+        ],
+        "nonGroupEnemies": true,
+        "planets": [
+            {
+                "id": "43",
+                "mScale": 10,
+                "x": "150",
+                "y": "150",
+                "z": "9"
+            },
+            {
+                "id": "45",
+                "mScale": 5,
+                "x": "1132",
+                "y": "568",
+                "z": "7"
+            },
+            {
+                "id": "38",
+                "mScale": 5,
+                "x": "2500",
+                "y": "1000",
+                "z": "7"
+            },
+            {
+                "id": "44",
+                "mScale": 5,
+                "x": "2632",
+                "y": "1068",
+                "z": "9"
+            },
+            {
+                "id": "27",
+                "mScale": 5,
+                "x": "0",
+                "y": "1800",
+                "z": "8"
+            },
+            {
+                "id": "35",
+                "mScale": 5,
+                "x": "2500",
+                "y": "100",
+                "z": "7"
+            }
+        ],
+        "portals": [
+        ],
+        "scale": 1,
+        "scaryAlienMode": true,
+        "stations": [
+        ],
+        "theme": "tot",
+        "useMap": "355"
+    },
   "317": {
     "name": "Pilot Sheet Trial",
     "scale": 0.5,
