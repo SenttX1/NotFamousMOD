@@ -40,7 +40,7 @@
         "78": 14,
         "79": 14,
         "80": 14,
-        "81": 14,
+        "81": 21,
         "82": 14,
         "83": 12,
         "91": 20,
@@ -317,11 +317,11 @@
             "2": {"id": 2, "popoverKey": "spd_g3n7900", "iconPath": "/generator/speed", "name": "g3n-7900", "type": "generator", "subtype": "speed", "sizes": ["30", "63", "100"]}
         },
         "extra": {
-            "1": {"id": 1, "popoverKey": "skm-01", "iconPath": "/skill/ship", "name": "skm-01", "compatibleShipClass": [1,12,13,14,20], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
-            "2": {"id": 2, "popoverKey": "skm-02", "iconPath": "/skill/ship", "name": "skm-02", "compatibleShipClass": [1,12,13,14,20], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
-            "3": {"id": 3, "popoverKey": "skm-03", "iconPath": "/skill/ship", "name": "skm-03", "compatibleShipClass": [1,12,13,14,20], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
-            "4": {"id": 4, "popoverKey": "skm-04", "iconPath": "/skill/ship", "name": "skm-04", "compatibleShipClass": [1,12,13,14,20], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
-            "5": {"id": 5, "popoverKey": "skm-05", "iconPath": "/skill/ship", "name": "skm-05", "compatibleShipClass": [1,12,13,14,20], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "1": {"id": 1, "popoverKey": "skm-01", "iconPath": "/skill/ship", "name": "skm-01", "compatibleShipClass": [1,12,13,14,20,21], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "2": {"id": 2, "popoverKey": "skm-02", "iconPath": "/skill/ship", "name": "skm-02", "compatibleShipClass": [1,12,13,14,20,21], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "3": {"id": 3, "popoverKey": "skm-03", "iconPath": "/skill/ship", "name": "skm-03", "compatibleShipClass": [1,12,13,14,20,21], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "4": {"id": 4, "popoverKey": "skm-04", "iconPath": "/skill/ship", "name": "skm-04", "compatibleShipClass": [1,12,13,14,20,21], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "5": {"id": 5, "popoverKey": "skm-05", "iconPath": "/skill/ship", "name": "skm-05", "compatibleShipClass": [1,12,13,14,20,21], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
             "6": {"id": 6, "popoverKey": "skm-06", "iconPath": "/skill/ship", "name": "skm-06", "compatibleShipClass": [2,15,12,19], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]},
             "7": {"id": 7, "popoverKey": "skm-07", "iconPath": "/skill/ship", "name": "skm-07", "compatibleShipClass": [4], "type": "extra", "subtype": "ship", "sizes": ["30", "63", "100"]}
         },
@@ -340,7 +340,8 @@
             "6": {"id": 6, "popoverKey": "dd_hercules", "iconPath": "/drone", "name": "hercules", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]}
         },
         "protocol": {
-            "1": {"id": 1, "simple": "PE-SCR-01", "popoverKey": "pal_enhance1", "iconPath": "/protocol", "name": "PE-SCR-01", "type": "protocol", "subtype": "ship", "sizes": ["30", "63", "100"]}
+            "1": {"id": 1, "simple": "PE-SCR-01", "popoverKey": "pal_enhance1", "iconPath": "/protocol", "name": "PE-SCR-01", "type": "protocol", "subtype": "ship", "sizes": ["30", "63", "100"]},
+            "2": {"id": 1, "simple": "PE-SCR-02", "popoverKey": "pal_enhance2", "iconPath": "/protocol", "name": "PE-SCR-02", "type": "protocol", "subtype": "ship", "sizes": ["30", "63", "100"]}
         }
     },
     "shipSkillIdToChar": {
