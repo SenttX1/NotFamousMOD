@@ -390,7 +390,9 @@
       "14": 1040,
       "15": 1040,
       "16": 1040,
-      "17": 1040
+      "17": 1040,
+      "18": 1200,
+      "19": 1200
     },
     "BEAMS": {
       "0": 500
@@ -527,6 +529,7 @@
         "COLOR_HERO": "#ededed",
         "COLOR_GROUP": "#FFD700",
         "COLOR_ALLY_FACTION": "#0099ff",
+        "COLOR_HAUNTVOC": "#DAA520",
         "COLOR_HAVOC": "#FF0000",
         "COLOR_HERCULES": "#328fcc"
     },
