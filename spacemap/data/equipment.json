@@ -47,7 +47,8 @@
         "92": 20,
         "93": 20,
         "94": 20,
-        "95": 14
+        "95": 14,
+        "115": 21
     },
     "shipTypeSlots": {
         "0": {
@@ -86,6 +87,14 @@
             "generator": 15,
             "extra": 1,
             "module": 2,
+            "structureModule": 1
+        },
+        "21": {
+            "laser": 15,
+            "rLauncher": 1,
+            "generator": 15,
+            "extra": 1,
+            "module": 3,
             "structureModule": 1
         },
         "14": {
