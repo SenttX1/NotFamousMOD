@@ -899,7 +899,9 @@
         "14": [ "collectables/nickel", 20, 1, false ],
         "15": [ "collectables/palladium", 31, 1, false ],
         "16": [ "collectables/ree", 15, 1, false ],
-        "17": [ "collectables/selenite", 39, 1, false ]
+        "17": [ "collectables/selenite", 39, 1, false ],
+        "18": ["collectables/pumpkin", 26, 1, false],
+        "19": ["collectables/jackolanterium", 25, 1, false]
     },
   "beams": {
       "0": ["effects/beam", 15, 1, true]
