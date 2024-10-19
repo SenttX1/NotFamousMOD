@@ -3956,6 +3956,7 @@
     "355": {
         "name": "Tunnel of Terror",
         "theme": "tot",
+        "useMap": "355",
         "bg": 355,
         "scale": 1,
         "scaryAlienMode": true,
