@@ -244,6 +244,7 @@
         "body": {"x": 23, "y": 23}
       },
       "2": {
+        "arm": {"x": 24, "y": 14},
         "body": {"x": 23, "y": 23}
       }
     },
@@ -806,7 +807,7 @@
     "shopSectionsGraphics": [],
     "useEqSimple": false,
     "eqShowDetailGif": true,
-    "robotAnimatedArms": false,
+    "robotAnimatedArms": true,
     "scaleInfoIcons": false,
     "showShieldBarrier": true
   }

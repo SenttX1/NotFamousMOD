@@ -482,7 +482,7 @@
   "robots": {
       "0": ["robots/robot0", 1, 0],
       "1": ["robots/robot1", 1, 0],
-      "2": ["robots/robot2", 10, 0]
+      "2": ["robots/robot2", 1, 0]
   },
   "lockon": {
       "0": ["lockon/0", 0, 0]
