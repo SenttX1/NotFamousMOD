@@ -2746,6 +2746,10 @@
     background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background130.jpg) !important;
 }
 
+#minimap[style*="background355.jpg"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background355.jpg) !important;
+}
+
 
 .gg_visual_main_main[style*="gg1/bg.jpg"] {
     background-image: url(https://notfamous.ariaom.com/spacemap/image/galaxygate/gg1/bg.jpg) !important;
