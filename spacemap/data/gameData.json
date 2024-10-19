@@ -804,7 +804,7 @@
         "uiPureCss": false,
         "uiDraggerPureCss": false,
         "repairWindowIcons": true,
-        "outOfRangeEnabled": true,
+        "outOfRangeEnabled": false,
         "cssMapName": false,
         "spacemapUseFaIcon": true,
         "showGgParts": true,
