@@ -306,99 +306,104 @@
         "19": 3000
     }
   },
-  "animationTimes": {
-    "EXPLOSIONS": {
-      "explosion": {
-        "0": 1500
-      },
-      "disrupt": {
-        "0": 500
-      },
-      "laser": {
-        "0": 1000,
-        "1": 1000,
-        "2": 1000
-      },
-      "rocket": {
-        "0": 1000
-      },
-      "smartBomb": 3000,
-      "mine": {
-        "0": 500,
-        "2": 500,
-        "3": 500,
-        "4": 800
-      },
-      "firework": {
-        "1": 3500,
-        "2": 3500,
-        "3": 3500
-      }
+    "animationTimes": {
+        "EXPLOSIONS": {
+            "explosion": {
+                "0": 1500
+            },
+            "disrupt": {
+                "0": 500
+            },
+            "laser": {
+                "0": 1000,
+                "1": 1000,
+                "2": 1000
+            },
+            "rocket": {
+                "0": 1000
+            },
+            "smartBomb": 3000,
+            "mine": {
+                "0": 500,
+                "2": 500,
+                "3": 500,
+                "4": 800
+            },
+            "firework": {
+                "1": 3500,
+                "2": 3500,
+                "3": 3500
+            }
+        },
+        "SHIELDS": {
+            "advancedShield": 1500,
+            "instaShield": 3000,
+            "emp": 1500,
+            "flash": 500,
+            "leech": 1500,
+            "barrier": 500,
+            "shieldRecharge": 1500,
+            "Fortress": 2000,
+            "NanoRepair": 1120,
+            "PrismaShield": 1500,
+            "Singularity": 1500,
+            "WeakShield": 1120,
+            "RapidFire": 2000,
+            "EmergencyRepair": 1700,
+            "Turbo": 1000,
+            "invincibility": 1500
+        },
+        "EFFECTS": {
+            "slowEffect": 750,
+            "levelUp": 2000
+        },
+        "MINES": {
+            "0": 5000,
+            "1": 2000,
+            "2": 2000,
+            "3": 1000,
+            "4": 300
+        },
+        "FIREWORKS": {
+            "1": 2500,
+            "2": 2500,
+            "3": 2500
+        },
+        "LENS_FLARES": {
+            "0": 500,
+            "1": 50,
+            "2": 50,
+            "3": 50
+        },
+        "COLLECTABLES": {
+            "1": 800,
+            "2": 800,
+            "3": 800,
+            "4": 800,
+            "5": 800,
+            "6": 800,
+            "7": 1500,
+            "8": 1500,
+            "9": 1500,
+            "10": 1500,
+            "11": 1200,
+            "13": 1040,
+            "14": 1040,
+            "15": 1040,
+            "16": 1040,
+            "17": 1040,
+            "18": 1200,
+            "19": 1200
+        },
+        "BEAMS": {
+            "0": 500
+        },
+        "REPAIR_BEAMS": {
+            "0": 1000,
+            "1": 1000,
+            "2": 1000
+        }
     },
-    "SHIELDS": {
-      "advancedShield": 1500,
-      "instaShield": 3000,
-      "emp": 1500,
-      "flash": 500,
-      "leech": 1500,
-      "barrier": 500,
-      "shieldRecharge": 1500,
-      "Fortress": 2000,
-      "NanoRepair": 1120,
-      "PrismaShield": 1500,
-      "Singularity": 1500,
-      "WeakShield": 1120,
-      "RapidFire": 2000,
-      "EmergencyRepair": 1700,
-      "Turbo": 1000,
-      "invincibility": 1500
-    },
-    "EFFECTS": {
-      "slowEffect": 750,
-      "levelUp": 2000
-    },
-    "MINES": {
-      "0": 5000,
-      "1": 2000,
-      "2": 2000,
-      "3": 1000,
-      "4": 300
-    },
-    "FIREWORKS": {
-      "1": 2500,
-      "2": 2500,
-      "3": 2500
-    },
-    "LENS_FLARES": {
-      "0": 500,
-      "1": 50,
-      "2": 50,
-      "3": 50
-    },
-    "COLLECTABLES": {
-      "1": 800,
-      "2": 800,
-      "3": 800,
-      "4": 800,
-      "5": 800,
-      "6": 800,
-      "7": 1500,
-      "8": 1500,
-      "9": 1500,
-      "10": 1500,
-      "11": 1200,
-      "13": 1040,
-      "14": 1040,
-      "15": 1040,
-      "16": 1040,
-      "17": 1040,
-      "18": 1200,
-      "19": 1200
-    },
-    "BEAMS": {
-      "0": 500
-    }
-  },
   "sounds": {
     "EXPLOSIONS": {
       "explosion": {
@@ -786,29 +791,30 @@
       "S_MISSILE_ATTACK": 25
     }
   },
-  "gameConfig": {
-    "showPortalAnim": true,
-    "showPortalBubble": false,
-    "allowLasersChange": true,
-    "slowdownForceField": true,
-    "slowdownEngineDisrupt": false,
-    "baseConstructRotatingDrone": false,
-    "baseCoreRobotCount": 4,
-    "moduleCoreRobotCount": 1,
-    "abPureCss": false,
-    "uiPureCss": false,
-    "uiDraggerPureCss": false,
-    "repairWindowIcons": true,
-    "outOfRangeEnabled": false,
-    "cssMapName": false,
-    "spacemapUseFaIcon": true,
-    "showGgParts": true,
-    "shopShowDetail": true,
-    "shopSectionsGraphics": [],
-    "useEqSimple": false,
-    "eqShowDetailGif": true,
-    "robotAnimatedArms": true,
-    "scaleInfoIcons": false,
-    "showShieldBarrier": true
-  }
+    "gameConfig": {
+        "showPortalAnim": true,
+        "showPortalBubble": false,
+        "allowLasersChange": true,
+        "slowdownForceField": true,
+        "slowdownEngineDisrupt": false,
+        "baseConstructRotatingDrone": false,
+        "baseCoreRobotCount": 4,
+        "moduleCoreRobotCount": 1,
+        "abPureCss": false,
+        "uiPureCss": false,
+        "uiDraggerPureCss": false,
+        "repairWindowIcons": true,
+        "outOfRangeEnabled": false,
+        "cssMapName": false,
+        "spacemapUseFaIcon": true,
+        "showGgParts": true,
+        "shopShowDetail": true,
+        "shopSectionsGraphics": [],
+        "useEqSimple": false,
+        "eqShowDetailGif": true,
+        "robotAnimatedArms": true,
+        "scaleInfoIcons": false,
+        "showShieldBarrier": true,
+        "repairBeamsOn": true
+    }
 }
