@@ -113,7 +113,8 @@
     "112": {"engineClass": 40, "laserClass": 81, "offsetId": 19},
     "115": { "engineClass": 41, "laserClass": 82, "offsetId": 1, "clickRadius": 70},
     "116": { "engineClass": 41, "laserClass": 82, "offsetId": 1, "clickRadius": 70},
-    "113": {"cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "canBeLocked": false}
+    "113": {"cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "canBeLocked": false},
+    "114": { "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70}
   },  
   "offsets": {
     "EXPANSION_OFFSETS": {
@@ -490,7 +491,13 @@
         ["LeftFront", "RightFront"],
         ["CenterFront"]
       ],
-      "81": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]]
+      "81": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]],
+      "82": [
+        ["LeftRearIn", "RightRearIn"],
+        ["LeftFrontIn", "RightFrontIn", "CenterRear"],
+        ["LeftFrontOut", "RightFrontOut"],
+        ["LeftRearOut", "RightRearOut", "CenterFront"]
+      ]
     }
   },
   "gameMsg": {
