@@ -550,8 +550,7 @@
         "RLAUNCHER_RADIUS": 500,
         "BARRIER_RADIUS": 10,
         "NICK_Y": 120,
-        "SHIP_INFO_BORDER": 0,
-        "SHIP_INFO_SHADOW": "2px 2px 3px rgba(0, 0, 0, 0.7)", // Delete later mby idk, set 0 -> 3 (above)
+        "SHIP_INFO_BORDER": 3,
         "LOCKON_RING": 15,
         "DRONE_DISTANCE": 100,
         "DRONE_SIMPLE_Y": -5,
