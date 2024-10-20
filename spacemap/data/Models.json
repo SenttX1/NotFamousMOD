@@ -528,8 +528,10 @@
         "17": [ "expansions/17", 0, 0, false ],
         "18": [ "expansions/18", 61, 1, false ],
         "19": [ "expansions/19", 41, 1, false ],
-        "20": [ "expansions/20", 45, 1, false ],
-        "21": [ "expansions/21", 47, 1, false ]
+        "20": [ "expansions/20", 47, 1, false ],
+        "21": [ "expansions/21", 47, 1, false ],
+        "22": [ "expansions/22", 47, 1, false ]
+
 
     },
     "planets": {

@@ -109,7 +109,7 @@
     "103": {"engineClass": 9999, "lockOffsetY": 40, "showOnMinimap": false, "shieldOffset": 40, "allowHover": false, "laserClass": 9999, "offsetId": 35, "clickRadius": 70, "expansionOffsetY": 42, "expansionOffsetX": 0},
     "109": {"engineClass": 39, "lockOffsetY": 20, "laserClass": 80, "offsetId": 37, "clickRadius": 70},
     "110": {"engineClass": 40, "laserClass": 81, "offsetId": 19, "visualExpansions": [20]},
-    "111": {"engineClass": 40, "laserClass": 81, "offsetId": 19},
+    "111": {"engineClass": 40, "laserClass": 81, "offsetId": 19, "visualExpansions": [22]},
     "112": {"engineClass": 40, "laserClass": 81, "offsetId": 19,  "visualExpansions": [21]},
     "115": { "engineClass": 19, "laserClass": 19, "offsetId": 10, "clickRadius": 70},
     "116": { "engineClass": 41, "laserClass": 82, "offsetId": 1, "clickRadius": 70},
@@ -300,12 +300,13 @@
     }
   },
   "expansionConfig": {
-    "selfAnimating": [18,19,20,21],
+    "selfAnimating": [18,19,20,21,22],
     "animationTime": {
         "18": 5000,
         "19": 3000,
         "20": 1750,
-        "21": 1750
+        "21": 1750,
+        "22": 1750
 
     }
   },
