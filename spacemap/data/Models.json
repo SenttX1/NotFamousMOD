@@ -340,7 +340,7 @@
         "112": [ "ships/vgoal", 32, 0, true, true, true ],
         "113": [ "ships/billboard", 0, 0, false, true, true ],
         "114": [ "ships/devourer", 15, 0, true, true, true ],
-        "115": [ "ships/gpumpkinplayer", 64, 0, true, true, true ],
+        "115": [ "ships/gpumpkinplayer", 32, 0, true, true, true ],
         "116": [ "ships/gpumpkinnpc", 64, 0, true, true, true ],
         "117": [ "drones/designs/havoc/zeus/6", 32, 0, true, true, true ]
 
