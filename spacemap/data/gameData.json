@@ -342,7 +342,7 @@
         },
         "SHIELDS": {
             "advancedShield": 1500,
-            "instaShield": 33000,
+            "instaShield": 3000,
             "emp": 1500,
             "flash": 500,
             "leech": 1500,
