@@ -820,6 +820,7 @@
         "robotAnimatedArms": true,
         "scaleInfoIcons": false,
         "showShieldBarrier": true,
-        "repairBeamsOn": true
+        "repairBeamsOn": true,
+        "gTechFilterDisabled": true
     }
 }
