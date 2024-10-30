@@ -19,8 +19,6 @@
     --default-dark-blue-transparent: #030e129f;
     --default-text-blue: #46d2fb;
     --active-window: 10000;
-    --fa-style-family-classic: 'Font Awesome 6 Pro' !important;
-    --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Pro' !important;
   }
   #ship-icon {
     width: 48px;
@@ -84,17 +82,12 @@
   }
   @font-face {
     font-family: "CorpFontRegular";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
+    src: url("https://atomic.ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
   }
-  @font-face {
-    font-family: "CorpFontHeavy";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
-  }
-
   @font-face {
     font-family: "CorpFontUsername";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
-  }
+    src: url("https://atomic.ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
+ }
   
   .circle-bg { 
     width: 400px;
@@ -362,7 +355,7 @@
     overflow-y: clip;
     overflow-x: clip;
     position: relative;
-    background-image: url("https://notfamous.ariaom.com/spacemap/welcome_standard.png");
+    background-image: url("https://atomic.ariaom.com/spacemap/welcome_standard.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1374,8 +1367,9 @@
   .admin,
   .assembly,
   .report,
-  .trade,
   .pal,
+  .welcome,
+  .trade,
   .help {
     top: 0;
     left: 0;
@@ -1545,38 +1539,8 @@
   .key-input-button:hover {
     border-color: #287490;
   }
-  
-  .log,
-  .spacemap,
-  .shipinfo,
-  .userinfo,
-  .settings,
-  .connection,
-  .logout_window,
-  .spacemap_ov,
-  .logout,
-  .assembly,
-  .chat,
-  .admin,
-  .report,
-  .trade,
-  .boosters,
-  .arena,
-  .pilotsheet,
-  .clan,
-  .competetive,
-  .equipment,
-  .repair,
-  .shop,
-  .refinement,
-  .galaxygate,
-  .group,
-  .quests,
-  .contacts,
-  .commchannel,
-  .clanstation,
-  .pal,
-  .help {
+
+  .window-main{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
@@ -2227,531 +2191,528 @@
   }
 
   #minimap[style*="background1.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background1.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background1.jpg) !important;
 }
 
 #minimap[style*="background2.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background2.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background2.jpg) !important;
 }
 
 #minimap[style*="background3.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background3.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background3.jpg) !important;
 }
 
 #minimap[style*="background4.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background4.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background4.jpg) !important;
 }
 
 #minimap[style*="background5.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background5.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background5.jpg) !important;
 }
 
 #minimap[style*="background6.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background6.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background6.jpg) !important;
 }
 
 #minimap[style*="background7.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background7.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background7.jpg) !important;
 }
 
 #minimap[style*="background8.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background8.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background8.jpg) !important;
 }
 
 #minimap[style*="background9.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background9.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background9.jpg) !important;
 }
 
 #minimap[style*="background10.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background10.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background10.jpg) !important;
 }
 
 #minimap[style*="background11.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background11.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background11.jpg) !important;
 }
 
 #minimap[style*="background12.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background12.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background12.jpg) !important;
 }
 
 #minimap[style*="background13.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background13.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background13.jpg) !important;
 }
 
 #minimap[style*="background14.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background14.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background14.jpg) !important;
 }
 
 #minimap[style*="background15.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background15.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background15.jpg) !important;
 }
 
 #minimap[style*="background16.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background16.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background16.jpg) !important;
 }
 
 #minimap[style*="background17.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background17.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background17.jpg) !important;
 }
 
 #minimap[style*="background18.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background18.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background18.jpg) !important;
 }
 
 #minimap[style*="background19.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background19.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background19.jpg) !important;
 }
 
 #minimap[style*="background20.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background20.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background20.jpg) !important;
 }
 
 #minimap[style*="background21.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background21.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background21.jpg) !important;
 }
 
 #minimap[style*="background22.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background22.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background22.jpg) !important;
 }
 
 #minimap[style*="background23.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background23.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background23.jpg) !important;
 }
 
 #minimap[style*="background24.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background24.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background24.jpg) !important;
 }
 
 #minimap[style*="background25.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background25.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background25.jpg) !important;
 }
 
 #minimap[style*="background26.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background26.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background26.jpg) !important;
 }
 
 #minimap[style*="background27.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background27.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background27.jpg) !important;
 }
 
 #minimap[style*="background28.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background28.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background28.jpg) !important;
 }
 
 #minimap[style*="background29.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background29.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background29.jpg) !important;
 }
 
 #minimap[style*="background30.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background30.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background30.jpg) !important;
 }
 
 #minimap[style*="background31.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background31.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background31.jpg) !important;
 }
 
 #minimap[style*="background32.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background32.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background32.jpg) !important;
 }
 
 #minimap[style*="background33.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background33.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background33.jpg) !important;
 }
 
 #minimap[style*="background34.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background34.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background34.jpg) !important;
 }
 
 #minimap[style*="background35.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background35.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background35.jpg) !important;
 }
 
 #minimap[style*="background36.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background36.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background36.jpg) !important;
 }
 
 #minimap[style*="background37.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background37.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background37.jpg) !important;
 }
 
 #minimap[style*="background38.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background38.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background38.jpg) !important;
 }
 
 #minimap[style*="background39.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background39.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background39.jpg) !important;
 }
 
 #minimap[style*="background40.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background40.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background40.jpg) !important;
 }
 
 #minimap[style*="background41.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background41.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background41.jpg) !important;
 }
 
 #minimap[style*="background42.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background42.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background42.jpg) !important;
 }
 
 #minimap[style*="background43.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background43.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background43.jpg) !important;
 }
 
 #minimap[style*="background44.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background44.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background44.jpg) !important;
 }
 
 #minimap[style*="background45.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background45.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background45.jpg) !important;
 }
 
 #minimap[style*="background46.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background46.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background46.jpg) !important;
 }
 
 #minimap[style*="background47.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background47.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background47.jpg) !important;
 }
 
 #minimap[style*="background48.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background48.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background48.jpg) !important;
 }
 
 #minimap[style*="background49.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background49.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background49.jpg) !important;
 }
 
 #minimap[style*="background50.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background50.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background50.jpg) !important;
 }
 
 #minimap[style*="background51.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background51.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background51.jpg) !important;
 }
 
 #minimap[style*="background52.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background52.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background52.jpg) !important;
 }
 
 #minimap[style*="background53.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background53.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background53.jpg) !important;
 }
 
 #minimap[style*="background54.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background54.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background54.jpg) !important;
 }
 
 #minimap[style*="background55.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background55.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background55.jpg) !important;
 }
 
 #minimap[style*="background56.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background56.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background56.jpg) !important;
 }
 
 #minimap[style*="background57.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background57.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background57.jpg) !important;
 }
 
 #minimap[style*="background58.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background58.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background58.jpg) !important;
 }
 
 #minimap[style*="background59.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background59.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background59.jpg) !important;
 }
 
 #minimap[style*="background60.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background60.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background60.jpg) !important;
 }
 
 #minimap[style*="background61.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background61.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background61.jpg) !important;
 }
 
 #minimap[style*="background62.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background62.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background62.jpg) !important;
 }
 
 #minimap[style*="background63.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background63.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background63.jpg) !important;
 }
 
 #minimap[style*="background64.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background64.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background64.jpg) !important;
 }
 
 #minimap[style*="background65.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background65.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background65.jpg) !important;
 }
 
 #minimap[style*="background66.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background66.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background66.jpg) !important;
 }
 
 #minimap[style*="background67.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background67.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background67.jpg) !important;
 }
 
 #minimap[style*="background68.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background68.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background68.jpg) !important;
 }
 
 #minimap[style*="background69.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background69.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background69.jpg) !important;
 }
 
 #minimap[style*="background70.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background70.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background70.jpg) !important;
 }
 
 #minimap[style*="background71.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background71.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background71.jpg) !important;
 }
 
 #minimap[style*="background72.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background72.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background72.jpg) !important;
 }
 
 #minimap[style*="background73.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background73.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background73.jpg) !important;
 }
 
 #minimap[style*="background74.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background74.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background74.jpg) !important;
 }
 
 #minimap[style*="background75.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background75.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background75.jpg) !important;
 }
 
 #minimap[style*="background76.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background76.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background76.jpg) !important;
 }
 
 #minimap[style*="background77.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background77.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background77.jpg) !important;
 }
 
 #minimap[style*="background78.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background78.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background78.jpg) !important;
 }
 
 #minimap[style*="background79.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background79.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background79.jpg) !important;
 }
 
 #minimap[style*="background80.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background80.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background80.jpg) !important;
 }
 
 #minimap[style*="background81.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background81.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background81.jpg) !important;
 }
 
 #minimap[style*="background82.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background82.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background82.jpg) !important;
 }
 
 #minimap[style*="background83.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background83.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background83.jpg) !important;
 }
 
 #minimap[style*="background84.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background84.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background84.jpg) !important;
 }
 
 #minimap[style*="background85.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background85.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background85.jpg) !important;
 }
 
 #minimap[style*="background86.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background86.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background86.jpg) !important;
 }
 
 #minimap[style*="background87.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background87.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background87.jpg) !important;
 }
 
 #minimap[style*="background88.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background88.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background88.jpg) !important;
 }
 
 #minimap[style*="background89.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background89.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background89.jpg) !important;
 }
 
 #minimap[style*="background90.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background90.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background90.jpg) !important;
 }
 
 #minimap[style*="background91.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background91.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background91.jpg) !important;
 }
 
 #minimap[style*="background92.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background92.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background92.jpg) !important;
 }
 
 #minimap[style*="background93.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background93.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background93.jpg) !important;
 }
 
 #minimap[style*="background94.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background94.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background94.jpg) !important;
 }
 
 #minimap[style*="background95.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background95.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background95.jpg) !important;
 }
 
 #minimap[style*="background96.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background96.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background96.jpg) !important;
 }
 
 #minimap[style*="background97.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background97.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background97.jpg) !important;
 }
 
 #minimap[style*="background98.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background98.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background98.jpg) !important;
 }
 
 #minimap[style*="background99.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background99.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background99.jpg) !important;
 }
 
 #minimap[style*="background100.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background100.jpg) !important;
+    background-image: url(https://atomic.ariaom.com//spacemap/backgrounds/background100.jpg) !important;
 }
 
 #minimap[style*="background101.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background101.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background101.jpg) !important;
 }
 
 #minimap[style*="background102.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background102.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background102.jpg) !important;
 }
 
 #minimap[style*="background103.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background103.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background103.jpg) !important;
 }
 
 #minimap[style*="background104.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background104.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background104.jpg) !important;
 }
 
 #minimap[style*="background105.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background105.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background105.jpg) !important;
 }
 
 #minimap[style*="background106.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background106.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background106.jpg) !important;
 }
 
 #minimap[style*="background107.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background107.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background107.jpg) !important;
 }
 
 #minimap[style*="background108.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background108.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background108.jpg) !important;
 }
 
 #minimap[style*="background109.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background109.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background109.jpg) !important;
 }
 
 #minimap[style*="background110.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background110.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background110.jpg) !important;
 }
 
 #minimap[style*="background111.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background111.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background111.jpg) !important;
 }
 
 #minimap[style*="background112.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background112.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background112.jpg) !important;
 }
 
 #minimap[style*="background113.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background113.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background113.jpg) !important;
 }
 
 #minimap[style*="background114.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background114.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background114.jpg) !important;
 }
 
 #minimap[style*="background115.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background115.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background115.jpg) !important;
 }
 
 #minimap[style*="background116.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background116.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background116.jpg) !important;
 }
 
 #minimap[style*="background117.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background117.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background117.jpg) !important;
 }
 
 #minimap[style*="background118.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background118.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background118.jpg) !important;
 }
 
 #minimap[style*="background119.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background119.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background119.jpg) !important;
 }
 
 #minimap[style*="background120.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background120.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background120.jpg) !important;
 }
 
 #minimap[style*="background121.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background121.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background121.jpg) !important;
 }
 
 #minimap[style*="background122.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background122.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background122.jpg) !important;
 }
 
 #minimap[style*="background123.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background123.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background123.jpg) !important;
 }
 
 #minimap[style*="background124.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background124.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background124.jpg) !important;
 }
 
 #minimap[style*="background125.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background125.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background125.jpg) !important;
 }
 
 #minimap[style*="background126.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background126.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background126.jpg) !important;
 }
 
 #minimap[style*="background127.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background127.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background127.jpg) !important;
 }
 
 #minimap[style*="background128.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background128.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background128.jpg) !important;
 }
 
 #minimap[style*="background129.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background129.jpg) !important;
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background129.jpg) !important;
 }
 
 #minimap[style*="background130.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background130.jpg) !important;
-}
-
-#minimap[style*="background777.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background777.jpg) !important;
-}
+    background-image: url(https://atomic.ariaom.com/spacemap/backgrounds/background130.jpg) !important;
 
 #minimap[style*="background355.jpg"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background355.jpg) !important;
+    background-image: url(https://atomic.ariaom.com//spacemap/backgrounds/background355.jpg) !important;
+    }
+     
 }
 
 
@@ -3113,6 +3074,14 @@
 
 .calendar-item .item-img[src*="shopImg/1/gbastion.png"] {
     content: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/gbastion.png) !important;
+}
+
+.calendar-item .item-img[src*="shopImg/1/lspacefire.gif"] {
+    content: url(https://atomic.ariaom.com/spacemap/image/shopImg/1/lspacefire_detail.gif) !important;
+}
+
+.calendar-item .item-img[src*="shopImg/1/lspacefire.png"] {
+    content: url(https://atomic.ariaom.com/spacemap/image/shopImg/1/lspacefire.png) !important;
 }
 
 .calendar-item .item-img[src*="shopImg/1/genforcer_detail.gif"] {
@@ -4109,42 +4078,6 @@
     content: url(https://notfamous.ariaom.com/spacemap/ui/group/rej_inv_active.png) !important;
 }
 
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/1/vengeance.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/vengeance.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/1/leonov.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/leonov.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/1/goliath.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/goliath.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/2/lf4.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/2/lf4.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/2/hst2.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/2/hst2.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/3/apis.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/3/apis.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/3/zeus.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/3/zeus.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/7/hstrm.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/7/hstrm.png) !important;
-}
-
-.image-wrapper[style*="background-image: url(\"./image/shopImg/7/sar02.png\")"] {
-  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/7/sar02.png) !important;
-}
 /* Ocultar todas las imágenes por defecto */
 .btn-grp-action img {
     display: none !important;
@@ -4366,131 +4299,131 @@
     height: 121px;
   }
   .map_representation[style*="map1.png"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map1.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map1.png) !important;
     }
 
     .map_representation[style*="map2.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map2.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map2.png) !important;
     }
 
     .map_representation[style*="map3.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map3.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map3.png) !important;
     }
 
     .map_representation[style*="map4.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map4.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map4.png) !important;
     }
 
     .map_representation[style*="map5.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map5.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map5.png) !important;
     }
 
     .map_representation[style*="map6.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map6.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map6.png) !important;
     }
 
     .map_representation[style*="map7.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map7.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map7.png) !important;
     }
 
     .map_representation[style*="map8.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map8.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map8.png) !important;
     }
 
     .map_representation[style*="map9.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map9.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map9.png) !important;
     }
 
     .map_representation[style*="map10.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map10.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map10.png) !important;
     }
 
     .map_representation[style*="map11.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map11.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map11.png) !important;
     }
 
     .map_representation[style*="map12.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map12.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map12.png) !important;
     }
 
     .map_representation[style*="map13.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map13.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map13.png) !important;
     }
 
     .map_representation[style*="map14.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map14.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map14.png) !important;
     }
 
     .map_representation[style*="map15.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map15.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map15.png) !important;
     }
 
     .map_representation[style*="map16.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map16.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map16.png) !important;
     }
 
     .map_representation[style*="map17.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map17.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map17.png) !important;
     }
 
     .map_representation[style*="map18.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map18.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map18.png) !important;
     }
 
     .map_representation[style*="map19.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map19.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map19.png) !important;
     }
 
     .map_representation[style*="map20.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map20.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map20.png) !important;
     }
 
     .map_representation[style*="map21.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map21.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map21.png) !important;
     }
 
     .map_representation[style*="map22.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map22.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map22.png) !important;
     }
 
     .map_representation[style*="map23.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map23.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map23.png) !important;
     }
 
     .map_representation[style*="map24.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map24.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map24.png) !important;
     }
 
     .map_representation[style*="map25.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map25.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map25.png) !important;
     }
 
     .map_representation[style*="map26.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map26.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map26.png) !important;
     }
 
     .map_representation[style*="map27.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map27.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map27.png) !important;
     }
 
     .map_representation[style*="map28.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map28.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map28.png) !important;
     }
 
     .map_representation[style*="map29.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map29.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map29.png) !important;
     }
 
     .map_representation[style*="map30.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map30.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map30.png) !important;
     }
 
     .map_representation[style*="map31.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map31.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map31.png) !important;
     }
 
     .map_representation[style*="map32.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map32.png) !important;
+        background-image: url(https://atomic.ariaom.com/spacemap/ui/spacejump/map32.png) !important;
     }
 
     img[src$="spacemap/ui/quests/questgiver.gif"] {
@@ -5770,6 +5703,10 @@
   .group .group-member[incombat="true"] #name {
     color: red !important;
   }
+  .trade span {
+    margin: 0;
+  }
+
   .group .ship-structure {
     width: 100%;
     height: 100%;
@@ -6168,6 +6105,10 @@
     margin: 0;
   }
   
+  .competetive-main {
+    background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgb(37 38 41) 50%, rgba(20,20,20,1) 100%);
+  }
+  
   .competetive .modes-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -6198,15 +6139,27 @@
     display: block;
   }
   .competetive .controls-wrapper {
-    flex: 1
+    flex: 1;
+    background: url(./spacemap/ui/competetive/bgTrophy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .competetive .controls-wrapper button {
     width: 50%;
   }
-  .competetive .competetive-main[data-is-searching="false"] .search-status-wrapper, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
+  .competetive .competetive-main[data-is-searching="false"] .search-status-wrap, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
     display: none;
   }
-  
+  .competetive-main[data-is-in-match="true"] .footer-hint, .competetive-main[data-is-searching="true"] .footer-hint {
+    visibility: hidden;
+  }
+  .competetive-main[data-is-searching="true"] .modes-list {
+    border-top: 1px solid var(--default-blue);
+  }
+  .competetive-main[data-is-searching="true"] .loading-text {
+    display: block !important;
+  }
   .competetive .footer-hint {
     border-top: 1px solid #287490;
     width: 90%;
@@ -6216,6 +6169,12 @@
     padding: 2px 0;
     box-sizing: border-box;
     display: block;
+  }
+  .competetive .competetive-reward-section {
+    border-right: 1px solid var(--default-blue);
+  }
+  .competetive .reward-list .competetive-reward-section:last-child {
+    border-right: none
   }
   .competetive .footer-hint .footer-text {
     font-size: 12px;
@@ -8283,137 +8242,6 @@
   }
   .giffer[style*="image/shopImg/5/shipRepre.png"] {
     background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/5/shipRepre.png) !important;
-  }
-  .minimap-threat .threat {
-    width: 100%;
-    height: 20%;
-    background-color: #ff0707;
-    visibility: hidden;
-  }
-  .minimap-threat {
-    padding-right: 2px;
-    border-right: 3px solid var(--default-text-blue);
-  }
-  .minimap-threat[data-threat-level="1"] .threat[data-threat-index="1"] {
-    visibility: visible;
-  }
-  .minimap-threat[data-threat-level="2"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="2"] .threat[data-threat-index="2"] {
-    visibility: visible;
-  }
-  .minimap-threat[data-threat-level="3"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="3"] {
-    visibility: visible;
-  }
-  .minimap-threat[data-threat-level="4"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="3"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="4"] {
-    visibility: visible;
-  }
-  .minimap-threat[data-threat-level="5"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="5"] .threat[data-threat-index="2"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="3"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="4"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="5"] {
-    visibility: visible;
-  }
-  .minimap-threat .divider {
-    width: 4px;
-    background-color: var(--default-text-blue);
-    height: 4px;
-    margin-right: -2px;
-  }
+}
 
-  .trade span {
-    margin: 0;
-  }
-
-  .competetive:has(.competetive-main[data-is-in-match="true"]) {
-    max-width: 15vw !important;
-  }
   
-  .competetive .main {
-      height: 100%;
-  }
-  .competetive span {
-    margin: 0;
-  }
-  
-  .competetive-main {
-    background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgb(37 38 41) 50%, rgba(20,20,20,1) 100%);
-  }
-  
-  .competetive .modes-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .competetive .competetive-mode {
-    position: relative;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    aspect-ratio: 16 / 9;
-  }
-  .competetive .competetive-mode .mode-title {
-    position: absolute;
-    top: 5%
-  }
-  .competetive .competetive-mode img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .competetive .competetive-mode .mode-active, .competetive .competetive-mode button {
-    position: absolute;
-    display: none;
-    bottom: 5%;
-  }
-  .competetive .competetive-mode[data-is-selected="false"] button, .competetive .competetive-mode[data-is-selected="true"] .mode-active {
-    display: block;
-  }
-  .competetive .controls-wrapper {
-    flex: 1;
-    background: url(./spacemap/ui/competetive/bgTrophy.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .competetive .controls-wrapper button {
-    width: 50%;
-  }
-  .competetive .competetive-main[data-is-searching="false"] .search-status-wrap, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
-    display: none;
-  }
-  .competetive-main[data-is-in-match="true"] .footer-hint, .competetive-main[data-is-searching="true"] .footer-hint {
-    visibility: hidden;
-  }
-  .competetive-main[data-is-searching="true"] .modes-list {
-    border-top: 1px solid var(--default-blue);
-  }
-  .competetive-main[data-is-searching="true"] .loading-text {
-    display: block !important;
-  }
-  .competetive .footer-hint {
-    border-top: 1px solid #287490;
-    width: 90%;
-    max-height: 5vh;
-    overflow-y: auto;
-    margin: auto;
-    padding: 2px 0;
-    box-sizing: border-box;
-    display: block;
-  }
-  .competetive .competetive-reward-section {
-    border-right: 1px solid var(--default-blue);
-  }
-  .competetive .reward-list .competetive-reward-section:last-child {
-    border-right: none
-  }
-  .competetive .footer-hint .footer-text {
-    font-size: 12px;
-    text-shadow: 0 0 5px black;
-    font-weight: 300;
-    align-self: flex-start;
-  }
-  .competetive .footer-hint .hint-icon {
-    align-self: flex-start;
-  }
-  .competetive .competetive-main[data-is-in-match="false"] .in-match-wrapper, .competetive .competetive-main[data-is-in-match="true"] .controls-wrapper, .competetive .competetive-main[data-is-in-match="true"] .footer-hint, .competetive .competetive-main[data-is-in-match="true"] .modes-list {
-      display: none;
-  }
-  .competetive .compet-match-header > span {
-    text-transform: uppercase;
-  }
