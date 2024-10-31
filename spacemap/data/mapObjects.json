@@ -1783,6 +1783,12 @@
                 "y": 24500,
                 "id": 3,
                 "typeId": 0
+            },
+            {
+                "x": 22500,
+                "y": 13500,
+                "id": 4,
+                "typeId": 0
             }
         ],
         "lensflares": [],
@@ -1801,24 +1807,9 @@
     "32": {
         "name": "Tunnel of Inflation",
         "scale": 2,
-        "portals": [
-            {
-                "x": 22500,
-                "y": 13500,
-                "id": 4,
-                "typeId": 0
-            }
-        ],
+        "portals": [],
         "lensflares": [],
-        "planets": [
-            {
-                "x": "1280",
-                "y": "746",
-                "z": "3",
-                "id": "6",
-                "mScale": 5
-            }
-        ],
+        "planets": [],
         "nebulas": [],
         "stations": []
     },
