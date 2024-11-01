@@ -115,7 +115,13 @@
     "116": { "engineClass": 41, "laserClass": 82, "offsetId": 1, "clickRadius": 70},
     "113": {"cbsModule": true, "engineClass": 9999, "drawInfo": false, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 35, "canBeLocked": false},
     "114": { "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70},
-    "117": { "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70}
+    "117": { "engineClass": 9999, "laserClass": 9999, "offsetId": 13, "clickRadius": 70},
+    "118": { "overrideId": 6, "engineClass": 9999, "laserClass": 9999, "offsetId": 34, "clickRadius": 70, "isSpinny": true, "spinTime": 1500},
+    "119": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "120": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "121": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "122": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
+    "123": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70}
   },  
   "offsets": {
     "EXPANSION_OFFSETS": {

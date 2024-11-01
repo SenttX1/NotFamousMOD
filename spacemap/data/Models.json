@@ -343,7 +343,13 @@
         "114": [ "ships/devourer", 15, 0, true, true, true ],
         "115": [ "ships/gpumpkinplayer", 32, 0, true, true, true ],
         "116": [ "ships/gpumpkinnpc", 64, 0, true, true, true ],
-        "117": [ "drones/designs/havoc/zeus/6", 32, 0, true, true, true ]
+        "117": [ "drones/designs/havoc/zeus/6", 32, 0, true, true, true ],
+        "118": ["ships/generalUfo", 30, 0, true, false, true],
+        "119":{"path":"ships/czech","end":32,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "120":{"path":"ships/poland","end":32,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "121":{"path":"ships/england","end":32,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "122":{"path":"ships/france","end":32,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
+        "123":{"path":"ships/belgium","end":32,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
 
     },
     "minimap": {
