@@ -96,7 +96,7 @@
     "92": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
     "93": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
     "94": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
-    "95": {"engineClass": 1, "laserClass": 1, "offsetId": 1, "clickRadius": 70},
+    "95": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
     "96": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
     "97": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
     "98": {"engineClass": 9999, "showOnMinimap": false, "allowHover": false, "laserClass": 9999, "offsetId": 1, "clickRadius": 70},
