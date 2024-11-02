@@ -90,8 +90,8 @@
     "86": {"engineClass": 38, "laserClass": 42, "offsetId": 1, "clickRadius": 70},
     "87": {"engineClass": 38, "laserClass": 43, "offsetId": 1, "expansionId": 9, "clickRadius": 70},
     "88": {"engineClass": 9999, "laserClass": 9999, "offsetId": 32, "clickRadius": 70, "isSpinny": true},
-    "89": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70},
-    "90": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70},
+    "89": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70, "isSpinny": true},
+    "90": {"engineClass": 9999, "laserClass": 38, "offsetId": 1, "clickRadius": 70, "isSpinny": true},
     "91": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
     "92": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
     "93": {"engineClass": 11, "laserClass": 11, "offsetId": 1, "clickRadius": 70},
@@ -570,7 +570,7 @@
         "SKILL_VISUAL_FONT": "bold 10px CorpFontRegular",
         "USERNAME_FONT": "550 17px CorpFontUsername",
         "TITLE_FONT": "normal 14px CorpFontRegular",
-        "TITLE_FONT_IMPORTANT": "bold 16px CorpFontRegular",
+        "TITLE_FONT_IMPORTANT": "normal 14px CorpFontRegular",
         "COLLECTION_FONT": "bold 20px CorpFontRegular"
     },
     "titleColors": {
@@ -579,7 +579,7 @@
         "bronze": "#CD7F32",
         "red": "red",
         "blue": "#3b5998",
-        "purple": "#fefe00",
+        "purple": "#328fcc",
         "darkgreen": "#fefe00",
         "gold": "#fefe00"
     },
