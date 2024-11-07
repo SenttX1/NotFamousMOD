@@ -698,7 +698,9 @@
         "284": [ "planets/planet284", 0, 0, true ],
         "285": [ "planets/planet285", 0, 0, true ],
         "998": [ "planets/planet998", 0, 0, true ],
-        "999": [ "planets/planet999", 0, 0, true ]
+        "999": [ "planets/planet999", 0, 0, true ],
+        "9999": [ "planets/planet9999", 0, 0, true ]
+
     },
     "explosions": {
         "rocket": {
