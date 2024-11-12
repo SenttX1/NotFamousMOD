@@ -116,7 +116,8 @@
         "351": [ "backgrounds/background351", 0, 0, false, true, true, true, "jpg" ],
         "352": [ "backgrounds/background352", 0, 0, false, true, true, true, "jpg" ],
         "355": [ "backgrounds/background355", 0, 0, false, true, true, true, "jpg" ],
-        "777": [ "backgrounds/background777", 0, 0, false, true, true, true, "jpg" ]
+        "777": [ "backgrounds/background777", 0, 0, false, true, true, true, "jpg" ],
+        "9999": [ "backgrounds/background9999", 0, 0, false, true, true, true, "jpg" ]
     },
     "shipsSimple": {
         "1": [ "ships/simple/enforcer", 0, 0, false ],
