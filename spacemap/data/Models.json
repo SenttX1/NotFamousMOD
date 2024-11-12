@@ -318,7 +318,7 @@
         "88": [ "ships/icemeteroid", 61, 1, true, false, false ],
         "89": [ "ships/refereebot", 8, 0, true, false, false ],
         "90": [ "ships/robot", 8, 0, true, false, false ],
-        "91": [ "ships/bronze", 21, 0, true, false, false ],
+        "91": [ "ships/bronze", 32, 0, true, false, false ],
         "92": [ "ships/silver", 32, 0, true, false, false ],
         "93": [ "ships/gold", 32, 0, true, false, false ],
         "94": [ "ships/ignite", 32, 0, true, false, false ],
