@@ -250,7 +250,7 @@
         "19": [ "ships/goal", 64, 0, true, true, true ],
         "20": [ "ships/kick", 64, 0, true, true, true ],
         "21": [ "ships/referee", 64, 0, true, true, true ],
-        "22": [ "ships/america", 32, 0, true, true, true ],
+        "22": [ "ships/america", 64, 0, true, true, true ],
         "23": [ "ships/spectrum", 32, 0, true, true, true ],
         "24": [ "ships/solace", 32, 0, true, true, true ],
         "25": [ "ships/venom", 32, 0, true, true, true ],
