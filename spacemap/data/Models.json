@@ -244,9 +244,9 @@
         "13": [ "ships/bigboy", 32, 0, true, true, true ],
         "14": [ "ships/goliath", 64, 0, true, true, true ],
         "15": [ "ships/vhonor", 32, 0, true, true, true ],
-        "16": [ "ships/vexp", 32, 0, true, true, true ],
-        "17": [ "ships/gexp", 32, 0, true, true, true ],
-        "18": [ "ships/ghon", 32, 0, true, true, true ],
+        "16": [ "ships/vexp", 64, 0, true, true, true ],
+        "17": [ "ships/gexp", 64, 0, true, true, true ],
+        "18": [ "ships/ghon", 64, 0, true, true, true ],
         "19": [ "ships/goal", 64, 0, true, true, true ],
         "20": [ "ships/kick", 64, 0, true, true, true ],
         "21": [ "ships/referee", 64, 0, true, true, true ],
@@ -257,7 +257,7 @@
         "26": [ "ships/diminisher", 32, 0, true, true, true ],
         "27": [ "ships/sentinel", 32, 0, true, true, true ],
         "28": [ "ships/turkey", 64, 0, true, true, true ],
-        "29": [ "ships/vlight", 32, 0, true, true, true ],
+        "29": [ "ships/vlight", 64, 0, true, true, true ],
         "30": [ "ships/pusat", 32, 0, true, true, true ],
         "31": [ "ships/surgeon", 64, 0, true, true, true ],
         "32": [ "ships/streuner", 32, 0, true, false, true ],
@@ -338,8 +338,8 @@
         "108": [ "ships/constructionBot", 31, 0, false ],
         "109": [ "ships/lspacefire", 32, 0, true, true, true ],
         "110": [ "ships/vreferee", 64, 0, true, true, true ],
-        "111": [ "ships/vkick", 32, 0, true, true, true ],
-        "112": [ "ships/vgoal", 32, 0, true, true, true ],
+        "111": [ "ships/vkick", 64, 0, true, true, true ],
+        "112": [ "ships/vgoal", 64, 0, true, true, true ],
         "113": [ "ships/billboard", 0, 0, false, true, true ],
         "114": [ "ships/devourer", 15, 0, true, true, true ],
         "115": [ "ships/gpumpkinplayer", 64, 0, true, true, true ],
@@ -538,8 +538,8 @@
         "19": [ "expansions/19", 41, 1, false ],
         "20": [ "expansions/20", 47, 1, false ],
         "21": [ "expansions/21", 47, 1, false ],
-        "22": [ "expansions/22", 47, 1, false ]
-
+        "22": [ "expansions/22", 47, 1, false ],
+        "23": [ "expansions/23", 1, 1, false ]
 
     },
     "planets": {
