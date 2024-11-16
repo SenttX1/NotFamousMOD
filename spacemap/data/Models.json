@@ -229,7 +229,7 @@
         "109": [ "ships/simple/referee", 0, 0, false ]
     },
     "ships": {
-        "1": [ "ships/enforcer", 32, 0, true, true, true ],
+        "1": [ "ships/enforcer", 64, 0, true, true, true ],
         "2": [ "ships/bastion", 64, 0, true, true, true ],
         "3": [ "ships/vengeance", 32, 0, true, true, true ],
         "4": [ "ships/avenger", 32, 0, true, true, true ],
@@ -242,7 +242,7 @@
         "11": [ "ships/piranha", 32, 0, true, true, true ],
         "12": [ "ships/nostromo", 32, 0, true, true, true ],
         "13": [ "ships/bigboy", 32, 0, true, true, true ],
-        "14": [ "ships/goliath", 32, 0, true, true, true ],
+        "14": [ "ships/goliath", 64, 0, true, true, true ],
         "15": [ "ships/vhonor", 32, 0, true, true, true ],
         "16": [ "ships/vexp", 32, 0, true, true, true ],
         "17": [ "ships/gexp", 32, 0, true, true, true ],
