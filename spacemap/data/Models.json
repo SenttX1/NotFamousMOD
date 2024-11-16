@@ -256,7 +256,7 @@
         "25": [ "ships/venom", 32, 0, true, true, true ],
         "26": [ "ships/diminisher", 32, 0, true, true, true ],
         "27": [ "ships/sentinel", 32, 0, true, true, true ],
-        "28": [ "ships/turkey", 32, 0, true, true, true ],
+        "28": [ "ships/turkey", 64, 0, true, true, true ],
         "29": [ "ships/vlight", 32, 0, true, true, true ],
         "30": [ "ships/pusat", 32, 0, true, true, true ],
         "31": [ "ships/surgeon", 64, 0, true, true, true ],
