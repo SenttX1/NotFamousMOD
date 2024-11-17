@@ -824,7 +824,8 @@
         "2": [ "rlmissiles/2", 0, 0 ],
         "3": [ "rlmissiles/3", 0, 0 ],
         "4": [ "rlmissiles/4", 0, 0 ],
-        "5": [ "rlmissiles/5", 0, 0 ]
+        "5": [ "rlmissiles/5", 0, 0 ],
+        "6": [ "rlmissiles/6", 0, 0 ]
     },
     "lasers": {
         "sar": {
