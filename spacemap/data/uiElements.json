@@ -218,49 +218,223 @@
                 "useDefPosition": false
             },
             "content": [
-                [{
-                    "name": "bg",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
-                }, {
-                    "name": "space_object",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
-                }, {
-                    "name": "nebula",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
-                }, {
-                    "name": "star",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "good", "val": "good"}, {"id": 3, "label": "high", "val": "high"}]
-                }, {
-                    "name": "explosion",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "average", "val": "average"}, {"id": 3, "label": "good", "val": "good"}, {"id": 4, "label": "high", "val": "high"}]
-                }, {
-                    "name": "engine",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
-                }, {
-                    "name": "ships",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "low", "val": "low"}, {"id": 2, "label": "high", "val": "high"}]
-                }, {
-                    "name": "language",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "czech", "val": "cz"}, {"id": 2, "label": "english", "val": "en"}, {"id": 3, "label": "german", "val": "de"}, {"id": 4, "label": "turkish", "val": "tr"}, {"id": 5, "label": "russian", "val": "ru"}, {"id": 6, "label": "spanish", "val": "es"}, {"id": 7, "label": "french", "val": "fr"}]
-                },
-                {
-                    "name": "lasers",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "classic", "val": "classic"}, {"id": 2, "label": "modern", "val": "modern"}]
-                },
-                {
-                    "name": "laserflash",
-                    "isCheck": false,
-                    "options": [{"id": 1, "label": "off", "val": "off"}, {"id": 2, "label": "on", "val": "on"}]
-                }
+                [
+                    {
+                        "name": "bg",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "on",
+                                "val": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "space_object",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "on",
+                                "val": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "nebula",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "on",
+                                "val": "on"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "star",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "good",
+                                "val": "good"
+                            },
+                            {
+                                "id": 3,
+                                "label": "high",
+                                "val": "high"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "explosion",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "average",
+                                "val": "average"
+                            },
+                            {
+                                "id": 3,
+                                "label": "good",
+                                "val": "good"
+                            },
+                            {
+                                "id": 4,
+                                "label": "high",
+                                "val": "high"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "engine",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "low",
+                                "val": "low"
+                            },
+                            {
+                                "id": 2,
+                                "label": "high",
+                                "val": "high"
+                            }
+                        ]
+                    },
+                    {
+                        "isCheck": false,
+                        "name": "barrier",
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "low",
+                                "val": "low"
+                            },
+                            {
+                                "id": 2,
+                                "label": "high",
+                                "val": "high"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ships",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "low",
+                                "val": "low"
+                            },
+                            {
+                                "id": 2,
+                                "label": "high",
+                                "val": "high"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "language",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "czech",
+                                "val": "cz"
+                            },
+                            {
+                                "id": 2,
+                                "label": "english",
+                                "val": "en"
+                            },
+                            {
+                                "id": 3,
+                                "label": "german",
+                                "val": "de"
+                            },
+                            {
+                                "id": 4,
+                                "label": "turkish",
+                                "val": "tr"
+                            },
+                            {
+                                "id": 5,
+                                "label": "russian",
+                                "val": "ru"
+                            },
+                            {
+                                "id": 6,
+                                "label": "spanish",
+                                "val": "es"
+                            },
+                            {
+                                "id": 7,
+                                "label": "french",
+                                "val": "fr"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lasers",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "classic",
+                                "val": "classic"
+                            },
+                            {
+                                "id": 2,
+                                "label": "modern",
+                                "val": "modern"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "laserflash",
+                        "isCheck": false,
+                        "options": [
+                            {
+                                "id": 1,
+                                "label": "off",
+                                "val": "off"
+                            },
+                            {
+                                "id": 2,
+                                "label": "on",
+                                "val": "on"
+                            }
+                        ]
+                    }
                 ],
                 [{
                     "name": "actionbar_attack",
@@ -1719,7 +1893,8 @@
                 "palladium": 2,
                 "ree": 3,
                 "selenite": 4,
-                "jackolanterium": 5
+                "jackolanterium": 5,
+                "prismium": 6
             }
         },
         {
