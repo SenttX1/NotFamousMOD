@@ -309,7 +309,7 @@
         "79": [ "ships/sovereign", 64, 0, true, true, true ],
         "80": [ "ships/peacemaker", 64, 0, true, true, true ],
         "81": [ "ships/saturn", 64, 0, true, true, true ],
-        "82": [ "ships/german", 32, 0, true, true, true ],
+        "82": [ "ships/german", 64, 0, true, true, true ],
         "83": [ "ships/referee", 64, 0, true, true, true ],
         "84": [ "ships/petPro", 32, 0, true, true, true ],
         "85": [ "ships/petAdvanced", 32, 0, true, true, true ],
