@@ -345,14 +345,84 @@
         "115": [ "ships/gpumpkinplayer", 64, 0, true, true, true ],
         "116": [ "ships/gpumpkinnpc", 64, 0, true, true, true ],
         "117": [ "drones/designs/havoc/zeus/6", 32, 0, true, true, true ],
-        "118": ["ships/generalUfo", 30, 0, true, false, true],
-        "119":{"path":"ships/czech","end":64,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "120":{"path":"ships/poland","end":64,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "121":{"path":"ships/england","end":64,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "122":{"path":"ships/france","end":64,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "123":{"path":"ships/belgium","end":64,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "124":{"path":"ships/superIceAsteroid","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false},
-        "125":{"path":"ships/emperorCrylox","end":0,"start":0,"isWebp":true,"preload":true,"unload":false,"isSingleFile":false,"customExtension":null,"useAtlas":false}
+        "118": [ "ships/generalUfo", 30, 0, true, false, true ],
+        "119": {
+            "path": "ships/czech",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "120": {
+            "path": "ships/poland",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "121": {
+            "path": "ships/england",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "122": {
+            "path": "ships/france",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "123": {
+            "path": "ships/belgium",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "124": {
+            "path": "ships/superIceAsteroid",
+            "end": 0,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "125": {
+            "path": "ships/emperorCrylox",
+            "end": 0,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        }
     },
     "minimap": {
         "dots": {
@@ -911,6 +981,14 @@
                 "beam6": [ "lasers/modern/bigLaser6Beam", 0, 0 ],
                 "beam7": [ "lasers/modern/bigLaser7Beam", 0, 0 ],
                 "leech": [ "lasers/modern/laserLeech", 0, 0 ]
+            }
+        },
+        "invisible": {
+            "std": {
+
+            },
+            "big": {
+
             }
         }
     },
