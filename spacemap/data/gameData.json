@@ -541,8 +541,8 @@
             "clickRadius": 70
         },
         "82": {
-            "engineClass": 11,
-            "laserClass": 11,
+            "engineClass": 43,
+            "laserClass": 82,
             "offsetId": 1,
             "clickRadius": 70
         },
