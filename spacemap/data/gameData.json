@@ -13,14 +13,14 @@
             "clickRadius": 70
         },
         "3": {
-            "engineClass": 2,
-            "laserClass": 2,
+            "engineClass": 41,
+            "laserClass": 82,
             "offsetId": 3,
             "clickRadius": 55
         },
         "4": {
-            "engineClass": 2,
-            "laserClass": 2,
+            "engineClass": 41,
+            "laserClass": 82,
             "offsetId": 2,
             "clickRadius": 55
         },
@@ -91,13 +91,13 @@
             "clickRadius": 70
         },
         "15": {
-            "engineClass": 2,
-            "laserClass": 2,
+            "engineClass": 41,
+            "laserClass": 82,
             "offsetId": 2,
             "clickRadius": 55
         },
         "16": {
-            "engineClass": 45,
+            "engineClass": 41,
             "laserClass": 82,
             "offsetId": 2,
             "clickRadius": 55
