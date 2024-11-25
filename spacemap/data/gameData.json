@@ -1274,7 +1274,8 @@
         "COLOR_ALLY_FACTION": "#0099ff",
         "COLOR_HAUNTVOC": "#DAA520",
         "COLOR_HAVOC": "#FF0000",
-        "COLOR_HERCULES": "#328fcc"
+        "COLOR_HERCULES": "#328fcc",
+        "COLOR_CREDVOC": "#db63e2"
     },
     "defaults": {
         "BOT_RADIUS": 50,

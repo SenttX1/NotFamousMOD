@@ -1727,7 +1727,9 @@
                     {"id": 7, "type": "module_hon", "costData": {"uri": 100000, "credits": 100000000}},
                     {"id": 8, "type": "module_shd", "costData": {"uri": 100000, "credits": 100000000}},
                     {"id": 9, "type": "module_beam", "costData": {"uri": 500000, "credits": 500000000}},
-                    {"id": 10, "type": "module_nuke", "costData": {"uri": 500000, "credits": 500000000}}
+                    {"id": 10, "type": "module_nuke", "costData": {"uri": 500000, "credits": 500000000}},
+                    {"id": 11, "type": "module_prisma", "costData": {"uri": 375000, "credits": 375000000}},
+                    {"id": 12, "type": "module_energy", "costData": {"uri": 375000, "credits": 375000000}}               
                 ],
                 "valute": {
                     "uri": {},
