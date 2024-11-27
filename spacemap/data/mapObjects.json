@@ -4552,7 +4552,7 @@
             }
         ],
         "354": {
-            "name": "Mayhem Event",
+            "name": "Mayhem",
             "scale": 1,
             "portals": [],
             "lensflares": [
@@ -4927,4 +4927,4 @@
             ]
         }
     }
-    }
+}

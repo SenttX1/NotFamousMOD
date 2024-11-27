@@ -4,14 +4,11 @@
         "2": {"name": "G-Bastion", "icon": "gbastion", "desc": "gbastion_shop_desc"},
         "3": {"name": "V-Revenger", "icon": "vrevenger", "desc": "vrevenger_shop_desc"},
         "4": {"name": "V-Avenger", "icon": "vavenger", "desc": "vavenger_shop_desc"},
-        "5": {"name": "Pusat", "icon": "vengeance", "desc": "vengeance_shop_desc"},
+        "5": {"name": "Vengeance", "icon": "vengeance", "desc": "vengeance_shop_desc"},
         "6": {"name": "Phoenix", "icon": "phoenix", "desc": "phoenix_shop_desc"},
         "7": {"name": "Yamato", "icon": "yamato", "desc": "yamato_shop_desc"},
         "8": {"name": "Defcom", "icon": "defcom", "desc": "defcom_shop_desc"},
         "9": {"name": "Leonov", "icon": "leonov", "desc": "leonov_shop_desc"},
-        "91": { "desc": "bronzeshop_desc", "icon": "bronze", "name": "G-Bronze" },
-        "92": { "desc": "silver_shop_desc", "icon": "silver", "name": "G-Silver" },
-        "93": { "desc": "gold_shop_desc", "icon": "gold", "name": "G-Gold" },
         "10": {"name": "Liberator", "icon": "liberator", "desc": "liberator_shop_desc"},
         "11": {"name": "Piranha", "icon": "piranha", "desc": "piranha_shop_desc"},
         "12": {"name": "Nostormo", "icon": "nostromo", "desc": "nostromo_shop_desc"},
@@ -19,14 +16,14 @@
         "14": {"name": "Goliath", "icon": "goliath", "desc": "goliath_shop_desc"},
         "15": {"name": "V-Honor", "icon": "vhonor", "desc": "vhonor_shop_desc"},
         "16": {"name": "V-Experience", "icon": "vexp", "desc": "vexp_shop_desc"},
-        "110": {"name": "V-Inferno", "icon": "vreferee", "desc": "vreferee_shop_desc"},
-        "111": {"name": "V-Nuke", "icon": "vkick", "desc": "vkick_shop_desc"},
-        "112": {"name": "V-Frost", "icon": "vgoal", "desc": "vgoal_shop_desc"},
+        "110": {"name": "V-Referee", "icon": "vreferee", "desc": "vreferee_shop_desc"},
+        "111": {"name": "V-Kick", "icon": "vkick", "desc": "vkick_shop_desc"},
+        "112": {"name": "V-Goal", "icon": "vgoal", "desc": "vgoal_shop_desc"},
         "17": {"name": "G-Experience", "icon": "gexp", "desc": "gexp_shop_desc"},
         "18": {"name": "G-Honor", "icon": "ghon", "desc": "ghon_shop_desc"},
-        "19": {"name": "G-Champion Lava", "icon": "goal", "desc": "goal_shop_desc"},
-        "20": {"name": "G-Champion Tyrannos", "icon": "kick", "desc": "kick_shop_desc"},
-        "21": {"name": "G-Champion Dusklight", "icon": "referee", "desc": "referee_shop_desc"},
+        "19": {"name": "G-Goal", "icon": "goal", "desc": "goal_shop_desc"},
+        "20": {"name": "G-Kick", "icon": "kick", "desc": "kick_shop_desc"},
+        "21": {"name": "G-Referee", "icon": "referee", "desc": "referee_shop_desc"},
         "22": {"name": "G-Independence", "icon": "american", "desc": "american_shop_desc"},
         "23": {"name": "G-Spectrum", "icon": "spectrum", "desc": "spectrum_shop_desc"},
         "24": {"name": "G-Solace", "icon": "solace", "desc": "solace_shop_desc"},
@@ -42,13 +39,22 @@
         "80": {"name": "G-Peacemaker", "icon": "peacemaker", "desc": "gpeacemaker_shop_desc"},
         "82": {"name": "G-Germany", "icon": "ggerman", "desc": "ggerman_shop_desc"},
         "83": {"name": "G-Referee", "icon": "referee", "desc": "referee_shop_desc"},
-        "95": {"name": "G-RGB Phantasm", "icon": "rgbg", "desc": "rgbg_shop_desc"},
-        "94": { "desc": "space_shop_desc", "icon": "space", "name": "G-Space" },
+        "95": {"name": "G-RGB", "icon": "rgbg", "desc": "rgbg_shop_desc"},
+        "91": {"name": "G-Bronze", "icon": "bronze", "desc": "bronzeshop_desc"},
+        "92": {"name": "G-Silver", "icon": "silver", "desc": "silver_shop_desc"},
+        "93": {"name": "G-Gold", "icon": "gold", "desc": "gold_shop_desc"},
+        "94": {"name": "G-Space", "icon": "space", "desc": "space_shop_desc"},
         "81": {"name": "G-Saturn", "icon": "saturn", "desc": "saturn_shop_desc"},
         "106": {"name": "N-Starhawk", "icon": "nenvoy", "desc": "nstarhawk_shop_desc"},
-        "107": {"name": "G-Plus Neikos", "icon": "gtech", "desc": "gtech_shop_desc"},
+        "107": {"name": "G-Tech", "icon": "gtech", "desc": "gtech_shop_desc"},
         "109": {"name": "Tartarus", "icon": "lspacefire", "desc": "lspacefire_shop_desc"},
-        "115": {"name": "G-Surgeon", "icon": "gpumpkinplayer", "desc": "gpumpkinplayer_shop_desc"}
+        "115": {"name": "G-Nightmare", "icon": "gpumpkinplayer", "desc": "gpumpkinplayer_shop_desc"},
+        "119": {"name": "G-Czech", "icon": "gzech", "desc": "gzech_shop_desc"},
+        "120": {"name": "G-Poland", "icon": "gpoland", "desc": "gpoland_shop_desc"},
+        "121": {"name": "G-England", "icon": "gengland", "desc": "gengland_shop_desc"},
+        "122": {"name": "G-France", "icon": "gfrance", "desc": "gfrance_shop_desc"},
+        "123": {"name": "G-Belgium", "icon": "gbelgium", "desc": "gbelgium_shop_desc"}
+        
     },
     "2": {
         "1": {"name": "LF-4", "icon": "lf4", "desc": "lf4_shop_desc"},
@@ -60,19 +66,19 @@
     },
     "3": {
         "1": {"name": "Flax", "icon": "flax", "desc": "flax_shop_desc"},
-        "2": {"name": "Iris", "icon": "iris", "desc": "iris_shop_desc"},
-        "3": {"name": "Apis", "showCurrency": ["parts", "ap"], "icon": "apis", "desc": "apis_shop_desc"},
-        "4": {"name": "Zeus", "showCurrency": ["parts", "zp"], "icon": "zeus", "desc": "zeus_shop_desc"},
-        "5": {"name": "Havoc", "icon": "apis", "desc": "apis_shop_desc"},
-        "6": {"name": "Hercules", "icon": "zeus", "desc": "zeus_shop_desc"},
-        "7": {"name": "F-3D-DM", "icon": "f-3d-dm", "desc": "f3ddm_shop_desc"},
-        "8": {"name": "F-3D-DR", "icon": "f-3d-dr", "desc": "f3ddr_shop_desc"},
-        "9": {"name": "F-3D-RG", "icon": "f-3d-rg", "desc": "f3drg_shop_desc"},
-        "10": {"name": "F-3D-WL", "icon": "f-3d-wl", "desc": "f3dwl_shop_desc"},
-        "11": {"name": "F-3D-VT", "icon": "f-3d-vt", "desc": "f3dvt_shop_desc"},
+        "2": {"name": "Iova", "icon": "iris", "desc": "iris_shop_desc"},
+        "3": {"name": "Atlas", "showCurrency": ["parts", "ap"], "icon": "apis", "desc": "apis_shop_desc"},
+        "4": {"name": "Zagreus", "showCurrency": ["parts", "zp"], "icon": "zeus", "desc": "zeus_shop_desc"},
+        "5": {"name": "Havoc", "icon": "havoc", "desc": "dd_havoc"},
+        "6": {"name": "Hercules", "icon": "hercules", "desc": "dd_hercules"},
+        "7": {"name": "Haunt-Voc", "icon": "hauntvoc", "desc": "dd_demon"},
+        "8": {"name": "DF-DM", "icon": "f-3d-dm", "desc": "f3ddm_shop_desc"},
+        "9": {"name": "DF-DR", "icon": "f-3d-dr", "desc": "f3ddr_shop_desc"},
+        "10": {"name": "DF-RG", "icon": "f-3d-rg", "desc": "f3drg_shop_desc"},
+        "11": {"name": "DF-WL", "icon": "f-3d-wl", "desc": "f3dwl_shop_desc"},
         "12": {"name": "DF-VT", "icon": "f-3d-vt", "desc": "f3dvt_shop_desc"},
         "13": {"name": "DF-BAT", "icon": "f13bat", "desc": "fbat_shop_desc"},
-        "14": {"name": "Vandal", "icon": "vandal", "desc": "dd_vandal"}   
+        "14": {"name": "Vandal", "icon": "vandal", "desc": "dd_vandal"}
     },
     "4": {
         "1": {"name": "SG3N-B02", "icon": "sg3n-b02", "desc": "sg3nb02_shop_desc"},
@@ -132,126 +138,30 @@
         "4": {"name": "BK-102","icon": "bk102", "desc": "bk102_ch_shop_desc"}
     },
     "11": {
-        "1": {
-            "name": "XP-B01",
-            "icon": "xp-b01",
-            "desc": "xp-b01_shop_desc"
-        },
-        "2": {
-            "name": "XP-B02",
-            "icon": "xp-b02",
-            "desc": "xp-b02_shop_desc"
-        },
-        "3": {
-            "name": "DMG-B01",
-            "icon": "dmg-b01",
-            "desc": "dmg-b01_shop_desc"
-        },
-        "4": {
-            "name": "DMG-B02",
-            "icon": "dmg-b02",
-            "desc": "dmg-b02_shop_desc"
-        },
-        "5": {
-            "name": "SHD-B01",
-            "icon": "shd-b01",
-            "desc": "shd-b01_shop_desc"
-        },
-        "6": {
-            "name": "SHD-B02",
-            "icon": "shd-b02",
-            "desc": "shd-b02_shop_desc"
-        },
-        "7": {
-            "name": "HP-B01",
-            "icon": "hp-b01",
-            "desc": "hp-b01_shop_desc"
-        },
-        "8": {
-            "name": "HP-B02",
-            "icon": "hp-b02",
-            "desc": "hp-b02_shop_desc"
-        },
-        "9": {
-            "name": "HON-B01",
-            "icon": "hon-b01",
-            "desc": "hon-b01_shop_desc"
-        },
-        "10": {
-            "name": "HON-B02",
-            "icon": "hon-b02",
-            "desc": "hon-b02_shop_desc"
-        },
-        "11": {
-            "name": "SHDRECH-B01",
-            "icon": "shdrech-b01",
-            "desc": "shdrech-b01_shop_desc"
-        },
-        "12": {
-            "name": "SHDRECH-B02",
-            "icon": "shdrech-b02",
-            "desc": "shdrech-b02_shop_desc"
-        },
-        "13": {
-            "name": "REP-B01",
-            "icon": "rep-b01",
-            "desc": "rep-b01_shop_desc"
-        },
-        "14": {
-            "name": "REP-B02",
-            "icon": "rep-b02",
-            "desc": "rep-b02_shop_desc"
-        },
-        "15": {
-            "name": "CD-B01",
-            "icon": "cd-b01",
-            "desc": "cd-b01_shop_desc"
-        },
-        "16": {
-            "name": "CD-B02",
-            "icon": "cd-b02",
-            "desc": "cd-b02_shop_desc"
-        },
-        "17": {
-            "name": "BOX-B01",
-            "icon": "box-b01",
-            "desc": "box-b01_shop_desc"
-        },
-        "18": {
-            "name": "QUEST-B01",
-            "icon": "quest-b01",
-            "desc": "quest-b01_shop_desc"
-        },
-        "19": {
-            "name": "DMG-B03",
-            "icon": "dmg-b01",
-            "desc": "dmg-b03_shop_desc"
-        },
-        "20": {
-            "name": "SHD-B03",
-            "icon": "shd-b01",
-            "desc": "shd-b03_shop_desc"
-        },
-        "21": {
-            "name": "HP-B03",
-            "icon": "hp-b01",
-            "desc": "hp-b01_shop_desc"
-        },
-        "27": {
-            "name": "DMG-B03",
-            "icon": "dmg-b01",
-            "desc": "dmg-b03_shop_desc"
-        },
-        "28": {
-            "name": "SHD-B03",
-            "icon": "shd-b01",
-            "desc": "shd-b03_shop_desc"
-        },
-        "29": {
-            "name": "HP-B03",
-            "icon": "hp-b01",
-            "desc": "hp-b01_shop_desc"
-        }
+        "1": {"name": "XP-B01","icon": "xp-b01", "desc": "xp-b01_shop_desc"},
+        "2": {"name": "XP-B02","icon": "xp-b02", "desc": "xp-b02_shop_desc"},
+        "3": {"name": "DMG-B01","icon": "dmg-b01", "desc": "dmg-b01_shop_desc"},
+        "4": {"name": "DMG-B02","icon": "dmg-b02", "desc": "dmg-b02_shop_desc"},
+        "5": {"name": "SHD-B01","icon": "shd-b01", "desc": "shd-b01_shop_desc"},
+        "6": {"name": "SHD-B02","icon": "shd-b02", "desc": "shd-b02_shop_desc"},
+        "7": {"name": "HP-B01","icon": "hp-b01", "desc": "hp-b01_shop_desc"},
+        "8": {"name": "HP-B02","icon": "hp-b02", "desc": "hp-b02_shop_desc"},
+        "9": {"name": "HON-B01","icon": "hon-b01", "desc": "hon-b01_shop_desc"},
+        "10": {"name": "HON-B02","icon": "hon-b02", "desc": "hon-b02_shop_desc"},
+        "11": {"name": "SHDRECH-B01","icon": "shdrech-b01", "desc": "shdrech-b01_shop_desc"},
+        "12": {"name": "SHDRECH-B02","icon": "shdrech-b02", "desc": "shdrech-b02_shop_desc"},
+        "13": {"name": "REP-B01","icon": "rep-b01", "desc": "rep-b01_shop_desc"},
+        "14": {"name": "REP-B02","icon": "rep-b02", "desc": "rep-b02_shop_desc"},
+        "15": {"name": "CD-B01","icon": "cd-b01", "desc": "cd-b01_shop_desc"},
+        "16": {"name": "CD-B02","icon": "cd-b02", "desc": "cd-b02_shop_desc"},
+        "17": {"name": "BOX-B01","icon": "box-b01", "desc": "box-b01_shop_desc"},
+        "18": {"name": "QUEST-B01","icon": "quest-b01", "desc": "quest-b01_shop_desc"},
+        "19": {"name": "DMG-B03","icon": "dmg-b01", "desc": "dmg-b03_shop_desc"},
+        "20": {"name": "SHD-B03","icon": "shd-b01", "desc": "shd-b03_shop_desc"},
+        "21": {"name": "HP-B03","icon": "hp-b01", "desc": "hp-b01_shop_desc"},
+        "27": {"name": "DMG-B03","icon": "dmg-b01", "desc": "dmg-b03_shop_desc"},
+        "28": {"name": "SHD-B03","icon": "shd-b01", "desc": "shd-b03_shop_desc"},
+        "29": {"name": "HP-B03","icon": "hp-b01", "desc": "hp-b01_shop_desc"}
     },
     "12": {
         "1": {"name": "MHON-01","icon": "hon", "desc": "mhon-01"},
@@ -260,5 +170,9 @@
         "4": {"name": "MD-01","icon": "dmg", "desc": "md-01"},
         "5": {"name": "MH-01","icon": "hp", "desc": "mh-01"},
         "6": {"name": "MS-01","icon": "shd", "desc": "ms-01"}
-    } 
+    },
+    "13": {
+        "1": {"name": "Premium account","icon": "premium", "desc": "premium_shop_desc"},
+        "2": {"name": "Uridium","icon": "uri", "desc": "uritaium_shop_desc"}
+    }
 }

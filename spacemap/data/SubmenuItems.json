@@ -502,177 +502,177 @@
       "popover": {"txtKey": "s_skill_defcom_tooltip"}
     }
   ],
-    "9": [
-        {
-            "name": "default",
-            "id": 0,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "default-formation_tooltip" }
-        },
-        {
-            "name": "f-01-tu",
-            "id": 1,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "tu-formation_tooltip" }
-        },
-        {
-            "name": "f-02-ar",
-            "id": 2,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "arr-formation_tooltip" }
-        },
-        {
-            "name": "f-03-la",
-            "id": 12,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "lance-formation_tooltip" }
-        },
-        {
-            "name": "f-04-st",
-            "id": 3,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "star-formation_tooltip" }
-        },
-        {
-            "name": "f-05-pi",
-            "id": 4,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "pnc-formation_tooltip" }
-        },
-        {
-            "name": "f-06-da",
-            "id": 5,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "dba-formation_tooltip" }
-        },
-        {
-            "name": "f-07-di",
-            "id": 6,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "dia-formation_tooltip" }
-        },
-        {
-            "name": "f-08-ch",
-            "id": 7,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "chev-formation_tooltip" }
-        },
-        {
-            "name": "f-09-mo",
-            "id": 8,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "moth-formation_tooltip" }
-        },
-        {
-            "name": "f-10-cr",
-            "id": 9,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "crab-formation_tooltip" }
-        },
-        {
-            "name": "f-11-he",
-            "id": 10,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "heart-formation_tooltip" }
-        },
-        {
-            "name": "f-12-ba",
-            "id": 11,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "barrier-formation_tooltip" }
-        },
-        {
-            "name": "f-13-bt",
-            "id": 13,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "bat-formation_tooltip" }
-        },
-        {
-            "name": "f-3d-dm",
-            "id": 14,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "dm-formation_tooltip" }
-        },
-        {
-            "name": "f-3d-dr",
-            "id": 15,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "dr-formation_tooltip" }
-        },
-        {
-            "name": "f-3d-rg",
-            "id": 16,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "rg-formation_tooltip" }
-        },
-        {
-            "name": "f-3d-wl",
-            "id": 17,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "wl-formation_tooltip" }
-        },
-        {
-            "name": "f-3d-vt",
-            "id": 18,
-            "hasBar": false,
-            "isSelectable": true,
-            "hasAmount": false,
-            "requireAmmo": false,
-            "popover": { "txtKey": "vt-formation_tooltip" }
-        }
-    ]
+  "9": [
+    {
+      "name": "default",
+      "id": 0,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "default-formation_tooltip"}
+    },
+    {
+      "name": "f-01-tu",
+      "id": 1,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "tu-formation_tooltip"}
+    },
+    {
+      "name": "f-02-ar",
+      "id": 2,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "arr-formation_tooltip"}
+    },
+    {
+      "name": "f-03-la",
+      "id": 12,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "lance-formation_tooltip"}
+    },
+    {
+      "name": "f-04-st",
+      "id": 3,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "star-formation_tooltip"}
+    },
+    {
+      "name": "f-05-pi",
+      "id": 4,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "pnc-formation_tooltip"}
+    },
+    {
+      "name": "f-06-da",
+      "id": 5,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "dba-formation_tooltip"}
+    },
+    {
+      "name": "f-07-di",
+      "id": 6,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "dia-formation_tooltip"}
+    },
+    {
+      "name": "f-08-ch",
+      "id": 7,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "chev-formation_tooltip"}
+    },
+    {
+      "name": "f-09-mo",
+      "id": 8,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "moth-formation_tooltip"}
+    },
+    {
+      "name": "f-10-cr",
+      "id": 9,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "crab-formation_tooltip"}
+    },
+    {
+      "name": "f-11-he",
+      "id": 10,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "heart-formation_tooltip"}
+    },
+    {
+      "name": "f-12-ba",
+      "id": 11,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "barrier-formation_tooltip"}
+    },
+	{
+      "name": "f-13-bt",
+      "id": 13,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "bat-formation_tooltip"}
+    },
+    {
+      "name": "f-3d-dm",
+      "id": 14,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "dm-formation_tooltip"}
+    },
+    {
+      "name": "f-3d-dr",
+      "id": 15,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "dr-formation_tooltip"}
+    },
+    {
+      "name": "f-3d-rg",
+      "id": 16,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "rg-formation_tooltip"}
+    },
+    {
+      "name": "f-3d-wl",
+      "id": 17,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "wl-formation_tooltip"}
+    },
+    {
+      "name": "f-3d-vt",
+      "id": 18,
+      "hasBar": false,
+      "isSelectable": true,
+      "hasAmount": false,
+      "requireAmmo": false,
+      "popover": {"txtKey": "vt-formation_tooltip"}
+    }
+  ]
 }

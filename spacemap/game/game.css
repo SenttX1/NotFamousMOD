@@ -19,6 +19,8 @@
     --default-dark-blue-transparent: #030e129f;
     --default-text-blue: #46d2fb;
     --active-window: 10000;
+    --fa-style-family-classic: 'Font Awesome 6 Pro' !important;
+    --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Pro' !important;
   }
   #ship-icon {
     width: 48px;
@@ -48,21 +50,21 @@
   }
   .gears::after {
     content: "";
-    background-image: url("https://ariaom.com/spacemap/image/assembly/gears.svg");
+    background-image: url("https://notfamous.ariaom.com/spacemap/image/assembly/gears.svg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
   }
   .locked::after {
     content: "";
-    background-image: url("https://ariaom.com/spacemap/image/svg/locked.svg");
+    background-image: url("https://notfamous.ariaom.com/spacemap/image/svg/locked.svg");
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
   }
   .repair-icon::after {
     content: "";
-    background-image: url("https://ariaom.com/spacemap/image/svg/repair.svg");
+    background-image: url("https://notfamous.ariaom.com/spacemap/image/svg/repair.svg");
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,12 +84,17 @@
   }
   @font-face {
     font-family: "CorpFontRegular";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
+    src: url("https://notfamous.ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
   }
   @font-face {
+    font-family: "CorpFontHeavy";
+    src: url("https://notfamous.ariaom.com/spacemap/fonts/EurostileRegular.ttf") format('truetype');
+  }
+
+  @font-face {
     font-family: "CorpFontUsername";
-    src: url("https://ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
- }
+    src: url("https://notfamous.ariaom.com/spacemap/fonts/EurostileHeaFl.ttf") format('truetype');
+  }
   
   .circle-bg { 
     width: 400px;
@@ -1367,9 +1374,8 @@
   .admin,
   .assembly,
   .report,
-  .pal,
-  .welcome,
   .trade,
+  .pal,
   .help {
     top: 0;
     left: 0;
@@ -1539,8 +1545,8 @@
   .key-input-button:hover {
     border-color: #287490;
   }
-
-  .window-main{
+  
+  .window-main {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
@@ -2708,11 +2714,10 @@
 
 #minimap[style*="background130.jpg"] {
     background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background130.jpg) !important;
+}
 
 #minimap[style*="background355.jpg"] {
-    background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background355.jpg) !important;
-    }
-     
+  background-image: url(https://notfamous.ariaom.com/spacemap/backgrounds/background355.jpg) !important;
 }
 
 
@@ -3074,14 +3079,6 @@
 
 .calendar-item .item-img[src*="shopImg/1/gbastion.png"] {
     content: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/gbastion.png) !important;
-}
-
-.calendar-item .item-img[src*="shopImg/1/lspacefire.gif"] {
-    content: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/lspacefire_detail.gif) !important;
-}
-
-.calendar-item .item-img[src*="shopImg/1/lspacefire.png"] {
-    content: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/lspacefire.png) !important;
 }
 
 .calendar-item .item-img[src*="shopImg/1/genforcer_detail.gif"] {
@@ -3965,7 +3962,7 @@
 }
 
 
-/* Reemplazo de URLs de imágenes */
+/* Reemplazo de URLs de imÃ¡genes */
 .group-invite-bar .btn-invite-action img[src$="spacemap/ui/group/inv.png"] {
     content: url(https://notfamous.ariaom.com/spacemap/ui/group/inv.png) !important;
 }
@@ -4078,12 +4075,48 @@
     content: url(https://notfamous.ariaom.com/spacemap/ui/group/rej_inv_active.png) !important;
 }
 
-/* Ocultar todas las imágenes por defecto */
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/1/vengeance.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/vengeance.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/1/leonov.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/leonov.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/1/goliath.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/1/goliath.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/2/lf4.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/2/lf4.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/2/hst2.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/2/hst2.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/3/apis.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/3/apis.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/3/zeus.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/3/zeus.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/7/hstrm.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/7/hstrm.png) !important;
+}
+
+.image-wrapper[style*="background-image: url(\"./image/shopImg/7/sar02.png\")"] {
+  background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/7/sar02.png) !important;
+}
+/* Ocultar todas las imÃ¡genes por defecto */
 .btn-grp-action img {
     display: none !important;
 }
 
-/* Mostrar la imagen correspondiente según el estado y hover */
+/* Mostrar la imagen correspondiente segÃºn el estado y hover */
 .group-main[invitesAllowedState="false"] .btn-grp-action.allow-state img[src$="spacemap/ui/group/invallow.png"],
 .group-main[invitesAllowedState="false"] .btn-grp-action.allow-state:hover img[src$="spacemap/ui/group/invallow_active.png"],
 .group-main[invitesAllowedState="false"] .btn-grp-action.allow-state:active img[src$="spacemap/ui/group/invallow_active.png"] {
@@ -4096,7 +4129,7 @@
     display: block !important;
 }
 
-/* Ocultar las imágenes _active por defecto */
+/* Ocultar las imÃ¡genes _active por defecto */
 .btn-grp-action img[src*="_active.png"] {
     opacity: 0;
     transition: opacity 0.25s;
@@ -4299,7 +4332,7 @@
     height: 121px;
   }
   .map_representation[style*="map1.png"] {
-        background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map1.png) !important;
+    background-image: url(https://notfamous.ariaom.com/spacemap/ui/spacejump/map1.png) !important;
     }
 
     .map_representation[style*="map2.png"] {
@@ -5703,10 +5736,6 @@
   .group .group-member[incombat="true"] #name {
     color: red !important;
   }
-  .trade span {
-    margin: 0;
-  }
-
   .group .ship-structure {
     width: 100%;
     height: 100%;
@@ -6105,10 +6134,6 @@
     margin: 0;
   }
   
-  .competetive-main {
-    background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgb(37 38 41) 50%, rgba(20,20,20,1) 100%);
-  }
-  
   .competetive .modes-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -6139,27 +6164,15 @@
     display: block;
   }
   .competetive .controls-wrapper {
-    flex: 1;
-    background: url(./spacemap/ui/competetive/bgTrophy.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    flex: 1
   }
   .competetive .controls-wrapper button {
     width: 50%;
   }
-  .competetive .competetive-main[data-is-searching="false"] .search-status-wrap, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
+  .competetive .competetive-main[data-is-searching="false"] .search-status-wrapper, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
     display: none;
   }
-  .competetive-main[data-is-in-match="true"] .footer-hint, .competetive-main[data-is-searching="true"] .footer-hint {
-    visibility: hidden;
-  }
-  .competetive-main[data-is-searching="true"] .modes-list {
-    border-top: 1px solid var(--default-blue);
-  }
-  .competetive-main[data-is-searching="true"] .loading-text {
-    display: block !important;
-  }
+  
   .competetive .footer-hint {
     border-top: 1px solid #287490;
     width: 90%;
@@ -6169,12 +6182,6 @@
     padding: 2px 0;
     box-sizing: border-box;
     display: block;
-  }
-  .competetive .competetive-reward-section {
-    border-right: 1px solid var(--default-blue);
-  }
-  .competetive .reward-list .competetive-reward-section:last-child {
-    border-right: none
   }
   .competetive .footer-hint .footer-text {
     font-size: 12px;
@@ -7242,7 +7249,7 @@
   }
   .quests .detailed .navbar-item::before {
     text-align: center;
-    content: "►";
+    content: "â–º";
     position: absolute;
     left: 2px;
   }
@@ -7921,7 +7928,7 @@
   
   /* Arrow icon for the dropdown */
   .custom-select .select-style::after {
-    content: '▼';
+    content: 'â–¼';
     margin-left: 5px;
     position: relative;
     margin-top: 2px;
@@ -8242,6 +8249,137 @@
   }
   .giffer[style*="image/shopImg/5/shipRepre.png"] {
     background-image: url(https://notfamous.ariaom.com/spacemap/image/shopImg/5/shipRepre.png) !important;
-}
+  }
+  .minimap-threat .threat {
+    width: 100%;
+    height: 20%;
+    background-color: #ff0707;
+    visibility: hidden;
+  }
+  .minimap-threat {
+    padding-right: 2px;
+    border-right: 3px solid var(--default-text-blue);
+  }
+  .minimap-threat[data-threat-level="1"] .threat[data-threat-index="1"] {
+    visibility: visible;
+  }
+  .minimap-threat[data-threat-level="2"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="2"] .threat[data-threat-index="2"] {
+    visibility: visible;
+  }
+  .minimap-threat[data-threat-level="3"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="3"] .threat[data-threat-index="3"] {
+    visibility: visible;
+  }
+  .minimap-threat[data-threat-level="4"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="2"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="3"], .minimap-threat[data-threat-level="4"] .threat[data-threat-index="4"] {
+    visibility: visible;
+  }
+  .minimap-threat[data-threat-level="5"] .threat[data-threat-index="1"], .minimap-threat[data-threat-level="5"] .threat[data-threat-index="2"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="3"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="4"] , .minimap-threat[data-threat-level="5"] .threat[data-threat-index="5"] {
+    visibility: visible;
+  }
+  .minimap-threat .divider {
+    width: 4px;
+    background-color: var(--default-text-blue);
+    height: 4px;
+    margin-right: -2px;
+  }
 
+  .trade span {
+    margin: 0;
+  }
+
+  .competetive:has(.competetive-main[data-is-in-match="true"]) {
+    max-width: 15vw !important;
+  }
   
+  .competetive .main {
+      height: 100%;
+  }
+  .competetive span {
+    margin: 0;
+  }
+  
+  .competetive-main {
+    background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgb(37 38 41) 50%, rgba(20,20,20,1) 100%);
+  }
+  
+  .competetive .modes-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .competetive .competetive-mode {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 9;
+  }
+  .competetive .competetive-mode .mode-title {
+    position: absolute;
+    top: 5%
+  }
+  .competetive .competetive-mode img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .competetive .competetive-mode .mode-active, .competetive .competetive-mode button {
+    position: absolute;
+    display: none;
+    bottom: 5%;
+  }
+  .competetive .competetive-mode[data-is-selected="false"] button, .competetive .competetive-mode[data-is-selected="true"] .mode-active {
+    display: block;
+  }
+  .competetive .controls-wrapper {
+    flex: 1;
+    background: url(./spacemap/ui/competetive/bgTrophy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .competetive .controls-wrapper button {
+    width: 50%;
+  }
+  .competetive .competetive-main[data-is-searching="false"] .search-status-wrap, .competetive .competetive-main[data-is-searching="false"] button[action="cancel"], .competetive .competetive-main[data-is-searching="true"] button[action="search"] {
+    display: none;
+  }
+  .competetive-main[data-is-in-match="true"] .footer-hint, .competetive-main[data-is-searching="true"] .footer-hint {
+    visibility: hidden;
+  }
+  .competetive-main[data-is-searching="true"] .modes-list {
+    border-top: 1px solid var(--default-blue);
+  }
+  .competetive-main[data-is-searching="true"] .loading-text {
+    display: block !important;
+  }
+  .competetive .footer-hint {
+    border-top: 1px solid #287490;
+    width: 90%;
+    max-height: 5vh;
+    overflow-y: auto;
+    margin: auto;
+    padding: 2px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  .competetive .competetive-reward-section {
+    border-right: 1px solid var(--default-blue);
+  }
+  .competetive .reward-list .competetive-reward-section:last-child {
+    border-right: none
+  }
+  .competetive .footer-hint .footer-text {
+    font-size: 12px;
+    text-shadow: 0 0 5px black;
+    font-weight: 300;
+    align-self: flex-start;
+  }
+  .competetive .footer-hint .hint-icon {
+    align-self: flex-start;
+  }
+  .competetive .competetive-main[data-is-in-match="false"] .in-match-wrapper, .competetive .competetive-main[data-is-in-match="true"] .controls-wrapper, .competetive .competetive-main[data-is-in-match="true"] .footer-hint, .competetive .competetive-main[data-is-in-match="true"] .modes-list {
+      display: none;
+  }
+  .competetive .compet-match-header > span {
+    text-transform: uppercase;
+  }

@@ -1002,6 +1002,9 @@
         "2": {"x": 125, "y": 125},
         "3": {"x": 125, "y": 125}
       },
+      "snow": {
+        "1": {"x": 480, "y": 270}
+      },
       "SmartBomb": {"x": 160, "y": 160}
     },
     "SHIELD_OFFSET": {
@@ -1048,6 +1051,9 @@
                 "0": 1000,
                 "1": 1000,
                 "2": 1000
+            },
+            "snow": {
+                "1": 3000
             },
             "rocket": {
                 "0": 1000
@@ -1275,7 +1281,7 @@
         "COLOR_HAUNTVOC": "#DAA520",
         "COLOR_HAVOC": "#FF0000",
         "COLOR_HERCULES": "#328fcc",
-        "COLOR_CREDVOC": "#db63e2"
+        "COLOR_CREDVOC": "#fefe00"
     },
     "defaults": {
         "BOT_RADIUS": 50,
@@ -1437,7 +1443,7 @@
         "GM_ST": 1,
         "GM_SOUNDS_VOL": 2,
         "GM_ST_VOL": 3,
-        "BARRIER_Q": 12,
+        "BARRIER_Q": 11,
         "KEYBINDINGS": {
             "AB_1": 0,
             "AB_2": 1,
@@ -1479,7 +1485,8 @@
             "TECH_ROBOT": 37,
             "TECH_BSHD": 38,
             "TECH_LEECH": 39,
-            "TRIGGER_CLOAK": 40
+            "TRIGGER_CLOAK": 40,
+            "LASER_ATTACK": 41
         },
         "GAMEPADBINDS": {
             "AB_1": 0,
@@ -1549,6 +1556,7 @@
         "scaleInfoIcons": false,
         "showShieldBarrier": true,
         "repairBeamsOn": true,
-        "gTechFilterDisabled": true
+        "gTechFilterDisabled": true,
+        "portalSnowing": false
     }
 }

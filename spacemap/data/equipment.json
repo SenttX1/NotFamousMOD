@@ -43,12 +43,17 @@
         "81": 21,
         "82": 14,
         "83": 12,
-        "91": 20,
-        "92": 20,
-        "93": 20,
+        "91": 21,
+        "92": 21,
+        "93": 21,
         "94": 20,
         "95": 14,
-        "115": 21
+        "115": 21,
+        "119": 21,
+        "120": 21,
+        "121": 21,
+        "122": 21,
+        "123": 21
     },
     "shipTypeSlots": {
         "0": {
@@ -339,7 +344,7 @@
             "5": {"id": 5, "popoverKey": "dd_havoc", "iconPath": "/drone", "name": "havoc", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]},
             "6": {"id": 6, "popoverKey": "dd_hercules", "iconPath": "/drone", "name": "hercules", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]},
             "7": {"id": 7, "simple": "DD-HNV", "popoverKey": "dd_demon", "iconPath": "/drone", "name": "demon", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]},
-  "14": {"id": 14, "simple": "DD-VN", "popoverKey": "dd_vandal", "iconPath": "/drone", "name": "vandal", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]}      
+            "14": {"id": 14, "simple": "DD-VN", "popoverKey": "dd_vandal", "iconPath": "/drone", "name": "vandal", "type": "dd", "subtype": "bonus", "sizes": ["30", "63", "100"]}
         },
         "protocol": {
             "1": {"id": 1, "simple": "PE-SCR-01", "popoverKey": "pal_enhance1", "iconPath": "/protocol", "name": "PE-SCR-01", "type": "protocol", "subtype": "ship", "sizes": ["30", "63", "100"]},
@@ -373,15 +378,16 @@
         "5": {"shd": 0, "dmg": 10},
         "6": {"shd": 15, "dmg": 0},
         "7": {"shd": 0, "dmg": 0},
-        "14": {"shd": 0, "dmg": 4
-    }
-    
+        "14": {"shd": 0, "dmg": 4}
     },
     "droneDesignTypeToLoc": {
         "0": "none",
         "5": "havoc",
         "6": "hercules",
-        "7": "hauntvoc",
+        "7": "demon",
         "14": "vandal"
+    },
+    "palDesignDictionary": {
+        "84": "P.A.L."
     }
 }
