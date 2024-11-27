@@ -7247,12 +7247,12 @@
     transition: 0.2s ease-in-out;
     position: relative;
   }
-  .quests .detailed .navbar-item::before {
-    text-align: center;
-    content: "â–º";
-    position: absolute;
-    left: 2px;
-  }
+    .quests .detailed .navbar-item::before {
+        text-align: center;
+        content: "►";
+        position: absolute;
+        left: 2px;
+    }
   .quests .detailed .navbar-item:hover::before {
       color: white;
   }
@@ -7927,12 +7927,12 @@
   }
   
   /* Arrow icon for the dropdown */
-  .custom-select .select-style::after {
-    content: 'â–¼';
-    margin-left: 5px;
-    position: relative;
-    margin-top: 2px;
-  }
+    .custom-select .select-style::after {
+        content: '▼';
+        margin-left: 5px;
+        position: relative;
+        margin-top: 2px;
+    }
   
   /* Dropdown options */
   .custom-select .options {
