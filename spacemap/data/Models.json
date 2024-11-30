@@ -423,7 +423,8 @@
             "customExtension": null,
             "useAtlas": false
         },
-        "128": [ "ships/goliathFrost", 64, 0, true, true, true ]
+        "128": [ "ships/goliathFrost", 64, 0, true, true, true ],
+        "131": [ "ships/xmasPET", 64, 0, true, true, true ]
 
     },
     "minimap": {
