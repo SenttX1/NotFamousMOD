@@ -847,212 +847,527 @@
             "offsetId": 1,
             "clickRadius": 70,
             "visualExpansions": [ 21 ]
-        },
-        "131": {
-            "engineClass": 9999,
-            "laserClass": 9999,
-            "offsetId": 1,
-            "clickRadius": 70,
-            "visualExpansions": [ 21 ]
         }
-    },  
-  "offsets": {
-    "EXPANSION_OFFSETS": {
-      "12": {"x": 25, "y": -17}
     },
-    "SHIP_OFFSETS": {
-      "1": {"nickY": 35 },
-      "2": { "nickY": 35 },
-      "3": { "nickY": 35 },
-      "4": { "nickY": 50 },
-      "5": { "nickY": 35},
-      "6": { "nickY": 50 },
-      "7": { "nickY": 35 },
-      "8": { "nickY": 20 },
-      "9": { "nickY": 50 },
-      "10": {"nickY": 35 },
-      "11": {"nickY": 35 },
-      "12": {"nickY": 35 },
-      "13": {"nickY": 35 },
-      "14": {"nickY": 35 },
-      "15": {"nickY": 35 },
-      "16": {"nickY": 35 },
-      "17": {"nickY": 35 },
-      "18": {"nickY": 80 },
-      "19": {"nickY": 35 },
-      "36": {"nickY": 35 },
-      "20": {"nickY": 20 },
-      "21": {"nickY": 50 },
-      "22": {"nickY": 0 },
-      "23": {"nickY": 0 },
-      "24": {"nickY": 0 },
-      "25": {"nickY": 50 },
-      "26": {"nickY": 120 },
-      "27": {"nickY": 150 },
-      "28": {"nickY": 0 },
-      "29": {"nickY": 95 },
-      "30": {"nickY": 10 },
-      "31": {"nickY": 70 },
-      "32": {"nickY": 220 },
-      "33": {"nickY": 0 },
-      "34": {"nickY": 400 },
-      "35": {"nickY": -20 },
-      "37": {"nickY": 75 }
+    "offsets": {
+        "EXPANSION_OFFSETS": {
+            "12": {
+                "x": 25,
+                "y": -17
+            }
+        },
+        "SHIP_OFFSETS": {
+            "1": { "nickY": 35 },
+            "2": { "nickY": 35 },
+            "3": { "nickY": 35 },
+            "4": { "nickY": 50 },
+            "5": { "nickY": 35 },
+            "6": { "nickY": 50 },
+            "7": { "nickY": 35 },
+            "8": { "nickY": 20 },
+            "9": { "nickY": 50 },
+            "10": { "nickY": 35 },
+            "11": { "nickY": 35 },
+            "12": { "nickY": 35 },
+            "13": { "nickY": 35 },
+            "14": { "nickY": 35 },
+            "15": { "nickY": 35 },
+            "16": { "nickY": 35 },
+            "17": { "nickY": 35 },
+            "18": { "nickY": 80 },
+            "19": { "nickY": 35 },
+            "36": { "nickY": 35 },
+            "20": { "nickY": 20 },
+            "21": { "nickY": 50 },
+            "22": { "nickY": 0 },
+            "23": { "nickY": 0 },
+            "24": { "nickY": 0 },
+            "25": { "nickY": 50 },
+            "26": { "nickY": 120 },
+            "27": { "nickY": 150 },
+            "28": { "nickY": 0 },
+            "29": { "nickY": 95 },
+            "30": { "nickY": 10 },
+            "31": { "nickY": 70 },
+            "32": { "nickY": 220 },
+            "33": { "nickY": 0 },
+            "34": { "nickY": 400 },
+            "35": { "nickY": -20 },
+            "37": { "nickY": 75 }
+        },
+        "ENGINE_OFFSETS": {
+            "0": {
+                "x": 30,
+                "y": 30
+            }
+        },
+        "GATE_RING_OFFSETS": [
+            {
+                "x": 0,
+                "y": 0
+            },
+            {
+                "x": 5,
+                "y": 0
+            },
+            {
+                "x": 10,
+                "y": 0
+            },
+            {
+                "x": 5,
+                "y": -5
+            },
+            {
+                "x": 0,
+                "y": -5
+            },
+            {
+                "x": 10,
+                "y": -5
+            },
+            {
+                "x": 0,
+                "y": -6
+            }
+        ],
+        "PORTAL_OFFSETS": {
+            "0": {
+                "yShock": 0,
+                "xShock": 0,
+                "xMargin": 0,
+                "yMargin": 0
+            },
+            "1": {
+                "yShock": 96,
+                "xShock": 100,
+                "xMargin": -13,
+                "yMargin": -90
+            },
+            "2": {
+                "yShock": 50,
+                "xShock": 20,
+                "xMargin": 0,
+                "yMargin": 0
+            },
+            "3": {
+                "yShock": 90,
+                "xShock": 50,
+                "xMargin": -20,
+                "yMargin": -30
+            },
+            "4": {
+                "yShock": 80,
+                "xShock": 20,
+                "xMargin": -15,
+                "yMargin": -30
+            },
+            "5": {
+                "yShock": 50,
+                "xShock": 0,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "6": {
+                "yShock": 105,
+                "xShock": 10,
+                "xMargin": -20,
+                "yMargin": -30
+            },
+            "7": {
+                "yShock": 70,
+                "xShock": 0,
+                "xMargin": -10,
+                "yMargin": -20
+            },
+            "8": {
+                "yShock": 70,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "9": {
+                "noShock": true,
+                "yShock": 70,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "10": {
+                "noShock": true,
+                "yShock": 70,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "11": {
+                "yShock": 60,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "12": {
+                "yShock": 60,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "13": {
+                "yShock": 30,
+                "xShock": 10,
+                "xMargin": -10,
+                "yMargin": -10
+            },
+            "14": {
+                "yShock": 5,
+                "xShock": -7,
+                "xMargin": -10,
+                "yMargin": -10
+            }
+        },
+        "STATION_OFFSETS": {
+            "Mmo": {
+                "x": 851.5,
+                "y": 979
+            },
+            "Eic": {
+                "x": 1000.5,
+                "y": 1000.5
+            },
+            "Vru": {
+                "x": 1000.5,
+                "y": 1000.5
+            },
+            "VruEngine": {
+                "x": 137,
+                "y": 838
+            },
+            "MmoEngine": {
+                "x": 948,
+                "y": 17
+            },
+            "EicEngine": {
+                "x": 76,
+                "y": 20
+            },
+            "VruAdvanced": {
+                "x": 1000,
+                "y": 1000
+            },
+            "MmoAdvanced": {
+                "x": 1000,
+                "y": 1000
+            },
+            "EicAdvanced": {
+                "x": 1000,
+                "y": 1000
+            },
+            "Pirate": {
+                "x": 1500.5,
+                "y": 993
+            },
+            "Low": {
+                "x": 500.5,
+                "y": 500.5
+            }
+        },
+        "LENS_OFFSETS": {
+            "0": {
+                "1": {
+                    "x": 85.5,
+                    "y": 89
+                },
+                "2": {
+                    "x": 38,
+                    "y": 38
+                },
+                "3": {
+                    "x": 17,
+                    "y": 17.5
+                },
+                "4": {
+                    "x": 25,
+                    "y": 24
+                },
+                "5": {
+                    "x": 68.5,
+                    "y": 68
+                }
+            },
+            "1": {
+                "1": {
+                    "x": 85.5,
+                    "y": 89
+                },
+                "2": {
+                    "x": 38,
+                    "y": 37
+                },
+                "3": {
+                    "x": 17,
+                    "y": 17
+                },
+                "4": {
+                    "x": 25,
+                    "y": 25
+                },
+                "5": {
+                    "x": 68.5,
+                    "y": 68.5
+                },
+                "6": {
+                    "x": 126,
+                    "y": 125.5
+                }
+            },
+            "2": {
+                "1": {
+                    "x": 85.5,
+                    "y": 89
+                },
+                "2": {
+                    "x": 38,
+                    "y": 38
+                },
+                "3": {
+                    "x": 17,
+                    "y": 16.5
+                },
+                "4": {
+                    "x": 25,
+                    "y": 25
+                },
+                "5": {
+                    "x": 68.5,
+                    "y": 68
+                },
+                "6": {
+                    "x": 126,
+                    "y": 125.5
+                }
+            },
+            "3": {
+                "1": {
+                    "x": 85.5,
+                    "y": 89
+                },
+                "2": {
+                    "x": 38,
+                    "y": 37
+                },
+                "3": {
+                    "x": 17,
+                    "y": 16.5
+                },
+                "4": {
+                    "x": 25,
+                    "y": 24
+                },
+                "5": {
+                    "x": 68.5,
+                    "y": 67
+                },
+                "6": {
+                    "x": 126,
+                    "y": 125.5
+                }
+            }
+        },
+        "ROBOT_OFFSETS": {
+            "0": {
+                "arm": {
+                    "x": 14,
+                    "y": 14
+                },
+                "body": {
+                    "x": 23,
+                    "y": 23
+                }
+            },
+            "1": {
+                "arm": {
+                    "x": 14,
+                    "y": 14
+                },
+                "body": {
+                    "x": 23,
+                    "y": 23
+                }
+            },
+            "2": {
+                "arm": {
+                    "x": 24,
+                    "y": 14
+                },
+                "body": {
+                    "x": 23,
+                    "y": 23
+                }
+            }
+        },
+        "EXPLOSION_OFFSETS": {
+            "explosion": {
+                "0": {
+                    "x": 150,
+                    "y": 150
+                },
+                "1": {
+                    "x": 150,
+                    "y": 150
+                }
+            },
+            "disrupt": {
+                "0": {
+                    "x": 75,
+                    "y": 350
+                }
+            },
+            "laser": {
+                "0": {
+                    "x": 75,
+                    "y": 75,
+                    "random": 50
+                },
+                "1": {
+                    "x": 75,
+                    "y": 75,
+                    "random": 50
+                },
+                "2": {
+                    "x": 75,
+                    "y": 75,
+                    "random": 50
+                }
+            },
+            "rocket": {
+                "0": {
+                    "x": 75,
+                    "y": 75,
+                    "random": 50
+                },
+                "1": {
+                    "x": 100,
+                    "y": 100,
+                    "random": 100
+                }
+            },
+            "mine": {
+                "0": {
+                    "x": 150,
+                    "y": 150
+                },
+                "2": {
+                    "x": 75,
+                    "y": 75
+                },
+                "3": {
+                    "x": 75,
+                    "y": 75
+                },
+                "4": {
+                    "x": 218.5,
+                    "y": 218.5
+                }
+            },
+            "firework": {
+                "1": {
+                    "x": 125,
+                    "y": 125
+                },
+                "2": {
+                    "x": 125,
+                    "y": 125
+                },
+                "3": {
+                    "x": 125,
+                    "y": 125
+                }
+            },
+            "snow": {
+                "1": {
+                    "x": 480,
+                    "y": 270
+                }
+            },
+            "SmartBomb": {
+                "x": 160,
+                "y": 160
+            }
+        },
+        "SHIELD_OFFSET": {
+            "InstaShield": {
+                "x": 160,
+                "y": 160
+            },
+            "EnergyLeech": {
+                "x": 155.5,
+                "y": 155.5
+            },
+            "AdvancedShield": {
+                "x": 96,
+                "y": 96
+            },
+            "Barrier": {
+                "x": 160,
+                "y": 160
+            },
+            "Fortress": {
+                "x": 100,
+                "y": 100
+            },
+            "NanoRepair": {
+                "x": 100,
+                "y": 100
+            },
+            "PrismaShield": {
+                "x": 100,
+                "y": 100
+            },
+            "Singularity": {
+                "x": 100,
+                "y": 100
+            },
+            "WeakShield": {
+                "x": 100,
+                "y": 100
+            },
+            "RapidFire": {
+                "x": 125,
+                "y": 125
+            },
+            "EmergencyRepair": {
+                "x": 50,
+                "y": 50
+            },
+            "ShieldRecharge": {
+                "x": 100,
+                "y": 115
+            },
+            "Turbo": {
+                "x": 94.5,
+                "y": 94.5
+            },
+            "Invincibility": {
+                "x": 200,
+                "y": 200
+            }
+        },
+        "HIT_OFFSET": {
+            "x": 50,
+            "y": -50
+        }
     },
-    "ENGINE_OFFSETS": {
-      "0": { "x": 30, "y": 30 }
-    },
-    "GATE_RING_OFFSETS": [
-      { "x": 0, "y": 0 },
-      { "x": 5, "y": 0 },
-      { "x": 10, "y": 0 },
-      { "x": 5, "y": -5 },
-      { "x": 0, "y": -5 },
-      { "x": 10, "y": -5 },
-      { "x": 0, "y": -6 }
-    ],
-    "PORTAL_OFFSETS": {
-      "0": {"yShock": 0, "xShock": 0, "xMargin": 0, "yMargin": 0},
-      "1": {"yShock": 96, "xShock": 100, "xMargin": -13, "yMargin": -90},
-      "2": {"yShock": 50, "xShock": 20, "xMargin": 0, "yMargin": 0},
-      "3": {"yShock": 90, "xShock": 50, "xMargin": -20, "yMargin": -30},
-      "4": {"yShock": 80, "xShock": 20, "xMargin": -15, "yMargin": -30},
-      "5": {"yShock": 50, "xShock": 0, "xMargin": -10, "yMargin": -10},
-      "6": {"yShock": 105, "xShock": 10, "xMargin": -20, "yMargin": -30},
-      "7": {"yShock": 70, "xShock": 0, "xMargin": -10, "yMargin": -20},
-      "8": {"yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "9": {"noShock": true, "yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "10": {"noShock": true, "yShock": 70, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "11": {"yShock": 60, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "12": {"yShock": 60, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "13": {"yShock": 30, "xShock": 10, "xMargin": -10, "yMargin": -10},
-      "14": {"yShock": 5, "xShock": -7, "xMargin": -10, "yMargin": -10}
-    },
-    "STATION_OFFSETS": {
-      "Mmo": { "x": 851.5, "y": 979 },
-      "Eic": { "x": 1000.5, "y": 1000.5 },
-      "Vru": { "x": 1000.5, "y": 1000.5 },
-      "VruEngine": {"x": 137, "y": 838},
-      "MmoEngine": {"x": 948, "y": 17},
-      "EicEngine": {"x": 76, "y": 20},
-      "VruAdvanced": {"x": 1000, "y": 1000},
-      "MmoAdvanced": {"x": 1000, "y": 1000},
-      "EicAdvanced": {"x": 1000, "y": 1000},
-      "Pirate": { "x": 1500.5, "y": 993 },
-      "Low": { "x": 500.5, "y": 500.5 }
-    },
-    "LENS_OFFSETS": {
-      "0": {
-        "1": { "x": 85.5, "y": 89 },
-        "2": { "x": 38, "y": 38 },
-        "3": { "x": 17, "y": 17.5 },
-        "4": { "x": 25, "y": 24 },
-        "5": { "x": 68.5, "y": 68 }
-      },
-      "1": {
-        "1": { "x": 85.5, "y": 89 },
-        "2": { "x": 38, "y": 37 },
-        "3": { "x": 17, "y": 17 },
-        "4": { "x": 25, "y": 25 },
-        "5": { "x": 68.5, "y": 68.5 },
-        "6": { "x": 126, "y": 125.5 }
-      },
-      "2": {
-        "1": { "x": 85.5, "y": 89 },
-        "2": { "x": 38, "y": 38 },
-        "3": { "x": 17, "y": 16.5 },
-        "4": { "x": 25, "y": 25 },
-        "5": { "x": 68.5, "y": 68 },
-        "6": { "x": 126, "y": 125.5 }
-      },
-      "3": {
-        "1": { "x": 85.5, "y": 89 },
-        "2": { "x": 38, "y": 37 },
-        "3": { "x": 17, "y": 16.5 },
-        "4": { "x": 25, "y": 24 },
-        "5": { "x": 68.5, "y": 67 },
-        "6": { "x": 126, "y": 125.5 }
-      }
-    },
-    "ROBOT_OFFSETS": {
-      "0": {
-        "arm": {"x": 14, "y": 14},
-        "body": {"x": 23, "y": 23}
-      },
-      "1": {
-        "arm": {"x": 14, "y": 14},
-        "body": {"x": 23, "y": 23}
-      },
-      "2": {
-        "arm": {"x": 24, "y": 14},
-        "body": {"x": 23, "y": 23}
-      }
-    },
-    "EXPLOSION_OFFSETS": {
-      "explosion": {
-        "0": {"x": 150, "y": 150},
-        "1": {"x": 150, "y": 150}
-      },
-      "disrupt": {
-        "0": {"x": 75, "y": 350}
-      },
-      "laser": {
-        "0": {"x": 75, "y": 75, "random": 50},
-        "1": {"x": 75, "y": 75, "random": 50},
-        "2": {"x": 75, "y": 75, "random": 50}
-      },
-      "rocket": {
-       "0": {"x": 75, "y": 75, "random":50},
-       "1": {"x": 100, "y": 100, "random":100}
-      },
-      "mine": {
-        "0": {"x": 150, "y": 150},
-        "2": {"x": 75, "y": 75},
-        "3": {"x": 75, "y": 75},
-        "4": {"x": 218.5, "y": 218.5}
-      },
-      "firework": {
-        "1": {"x": 125, "y": 125},
-        "2": {"x": 125, "y": 125},
-        "3": {"x": 125, "y": 125}
-      },
-      "snow": {
-        "1": {"x": 480, "y": 270}
-      },
-      "SmartBomb": {"x": 160, "y": 160}
-    },
-    "SHIELD_OFFSET": {
-      "InstaShield": {"x": 160, "y": 160},
-      "EnergyLeech": {"x": 155.5, "y": 155.5},
-      "AdvancedShield": {"x": 96, "y": 96},
-      "Barrier": {"x": 160, "y": 160},
-      "Fortress": {"x": 100, "y": 100},
-      "NanoRepair": {"x": 100, "y": 100},
-      "PrismaShield": {"x": 100, "y": 100},
-      "Singularity": {"x": 100, "y": 100},
-      "WeakShield": {"x": 100, "y": 100},
-      "RapidFire": {"x": 125, "y": 125},
-      "EmergencyRepair": {"x": 50, "y": 50},
-      "ShieldRecharge": {"x": 100, "y": 115},
-      "Turbo": {"x": 94.5, "y": 94.5},
-      "Invincibility": {"x": 200, "y": 200}
-    },
-    "HIT_OFFSET": {
-      "x": 50,
-      "y": -50
-    }
-  },
-  "expansionConfig": {
-    "selfAnimating": [18,19,20,21,22],
-    "animationTime": {
-        "18": 5000,
-        "19": 3000,
-        "20": 1750,
-        "21": 1750,
-        "22": 1750
+    "expansionConfig": {
+        "selfAnimating": [ 18, 19, 20, 21, 22 ],
+        "animationTime": {
+            "18": 5000,
+            "19": 3000,
+            "20": 1750,
+            "21": 1750,
+            "22": 1750
 
-    }
-  },
+        }
+    },
     "animationTimes": {
         "EXPLOSIONS": {
             "explosion": {
@@ -1155,134 +1470,344 @@
             "2": 1000
         }
     },
-  "sounds": {
-    "EXPLOSIONS": {
-      "explosion": {
-        "0": {"type": "explosions", "name": "explosion0"}
-      },
-      "disrupt": {
-        "0": {"type": "explosions", "name": "rocketExplosion0"}
-      },
-      "laser": {
-        "0": null,
-        "1": null,
-        "2": null
-      },
-      "rocket": {
-        "0": {"type": "explosions", "name": "rocketExplosion0"},
-        "1": {"type": "explosions", "name": "rocketExplosion1"}
-      },
-      "mine": {
-        "0": {"type": "mines", "name": "default"},
-        "2": {"type": "mines", "name": "default"},
-        "3": {"type": "mines", "name": "default"},
-        "4": {"type": "mines", "name": "default"}
-      }
-    }
-  },
-  "laser_data": {
-    "LASER_SALVO_POINTS": {
-      "0": [
-        ["Left", "Right"],
-        ["CenterRear"],
-        ["Left", "Right"],
-        ["CenterFront"]
-      ],
-      "1": [
-        ["LeftRearIn", "RightRearIn"],
-        ["LeftFrontIn", "RightFrontIn", "CenterRear"],
-        ["LeftFrontOut", "RightFrontOut"],
-        ["LeftRearOut", "RightRearOut", "CenterFront"]
-      ],
-      "2": [
-        ["LeftRear", "RightRear"],
-        ["CenterRear"],
-        ["LeftFront", "RightFront"],
-        ["CenterFront"]
-      ],
-      "3": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
-      "4": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
-      "5": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
-      "6": [["Left","Right"],["CenterRear"],["Left","Right"],["CenterFront"]],
-      "7": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
-      "8": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
-      "9": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
-      "10": [["LeftRear","RightRear"],["CenterRear"],["LeftFront","RightFront"],["CenterFront"]],
-      "11": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftRearOuter","RightRearOuter","CenterFront"]],
-      "12": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["CenterFront"]],
-      "13": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterFront"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
-      "14": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterFront"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
-      "15": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterMid"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
-      "16": [["LeftRear","RightRear"],["CenterRear"],["LeftFrontOut","RightFrontOut"],["CenterMid"],["LeftRear","RightRear"],["CenterRear"],["LeftFrontIn","RightFrontIn"],["CenterFront"]],
-      "17": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]],
-      "18": [["RightFrontInner","LeftFrontInner"],["RightRearInner","LeftRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
-      "19": [["LeftRearInner","RightRearInner"],["CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner","CenterRear"]],
-      "20": [["CenterFront"]],
-      "9999": [["Center"]],
-      "21": [["LeftFrontInner","RightFrontInner"],["LeftFrontOuter","RightFrontOuter"]],
-      "22": [["LeftRearInner","RightRearInner"],["LeftRearOuter","RightRearOuter"],["LeftFrontInner","RightFrontInner"]],
-      "23": [["LeftRearInner","RightRearInner"],["LeftFrontInner","RightFrontInner"],["LeftRearOuter","RightRearOuter"]],
-      "24": [["LeftRearInner","RightRearInner"],["LeftFrontInner","RightFrontInner"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
-      "26": [["LeftFrontOuter","RightFrontOuter"]],
-      "27": [["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner"],["LeftFrontOuter","RightFrontOuter"]],
-      "28": [["LeftFrontOuter","RightFrontOuter"],["LeftRearInner","RightRearInner"],["LeftFrontOuter","RightFrontOuter","LeftRearInner","RightRearInner"],["LeftRearInner","RightRearInner"]],
-      "29": [["RightFrontOuter","LeftFrontOuter"],["RightRearOuter","LeftRearOuter"]],
-      "30": [["CenterFront"]],
-      "31": [["LeftFrontOuter","RightFrontOuter"]],
-      "32": [["LeftFrontInner","RightFrontInner","CenterFront"]],
-      "33": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
-      "34": [["Center"]],
-      "35": [["CenterFront"]],
-      "36": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
-      "37": [["RightRearInner","LeftRearInner"],["CenterFront","CenterRear"],["LeftFrontOuter","RightFrontOuter"],["LeftRearOuter","RightRearOuter"]],
-      "38": [["CenterFront"],["LeftFrontInner","RightFrontInner"]],
-      "39": [["CenterFront"]],
-      "40": [["CenterFront"],["CenterFront"]],
-      "41": [["CenterFront"],["CenterRear"],["CenterRear","CenterFront"]],
-      "42": [["CenterRear"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightRearOuter","LeftRearOuter"],["CenterFront"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"]],
-      "43": [["RightFrontInner","LeftFrontInner"],["CenterFront","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"],["RightFrontInner","LeftFrontInner"],["CenterFront","RightFrontOuter","LeftFrontOuter"],["RightFrontInner","LeftFrontInner"],["CenterMiddle","RightRearOuter","LeftRearOuter"]],
-      "80": [
-        ["LeftRear", "RightRear"],
-        ["CenterRear"],
-        ["LeftFront", "RightFront"],
-        ["CenterFront"]
-      ],
-      "81": [["LeftFrontOuter","RightFrontOuter"],["CenterRear"],["LeftRearInner","RightRearInner"],["Standard"],["LeftRearOuter","RightRearOuter"]],
-      "82": [
-        ["LeftRearIn", "RightRearIn"],
-        ["LeftFrontIn", "RightFrontIn", "CenterRear"],
-        ["LeftFrontOut", "RightFrontOut"],
-        ["LeftRearOut", "RightRearOut", "CenterFront"]
-      ]
-    }
-  },
-  "gameMsg": {
-    "msgFonts": {
-      "1": { "isBold": true, "size": "12px", "shadowC": "black", "shadowBlur": 10, "way": 1, "y": 20 },
-      "2": { "size": "50px", "shadowC": 0, "shadowBlur": 0, "way": 1, "y": 50 },
-      "3": {
-        "size": "bold 48px",
-        "shadowC": "#0000ff",
-        "shadowBlur": 10,
-        "way": 1,
-        "y": 250
-      },
-      "4": {
-        "size": "bold 30px",
-        "shadowC": "#000000",
-        "shadowBlur": 10,
-        "way": 1,
-        "y": 300
-      },
-      "5": {
-        "size": "bold 34px",
-        "shadowC": "#000000",
-        "shadowBlur": 10,
-        "way": 1,
-        "y": 300
-      }
-    }
-  },
+    "sounds": {
+        "EXPLOSIONS": {
+            "explosion": {
+                "0": {
+                    "type": "explosions",
+                    "name": "explosion0"
+                }
+            },
+            "disrupt": {
+                "0": {
+                    "type": "explosions",
+                    "name": "rocketExplosion0"
+                }
+            },
+            "laser": {
+                "0": null,
+                "1": null,
+                "2": null
+            },
+            "rocket": {
+                "0": {
+                    "type": "explosions",
+                    "name": "rocketExplosion0"
+                },
+                "1": {
+                    "type": "explosions",
+                    "name": "rocketExplosion1"
+                }
+            },
+            "mine": {
+                "0": {
+                    "type": "mines",
+                    "name": "default"
+                },
+                "2": {
+                    "type": "mines",
+                    "name": "default"
+                },
+                "3": {
+                    "type": "mines",
+                    "name": "default"
+                },
+                "4": {
+                    "type": "mines",
+                    "name": "default"
+                }
+            }
+        }
+    },
+    "laser_data": {
+        "LASER_SALVO_POINTS": {
+            "0": [
+                [ "Left", "Right" ],
+                [ "CenterRear" ],
+                [ "Left", "Right" ],
+                [ "CenterFront" ]
+            ],
+            "1": [
+                [ "LeftRearIn", "RightRearIn" ],
+                [ "LeftFrontIn", "RightFrontIn", "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "LeftRearOut", "RightRearOut", "CenterFront" ]
+            ],
+            "2": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "3": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "4": [
+                [ "Left", "Right" ],
+                [ "CenterRear" ],
+                [ "Left", "Right" ],
+                [ "CenterFront" ]
+            ],
+            "5": [
+                [ "Left", "Right" ],
+                [ "CenterRear" ],
+                [ "Left", "Right" ],
+                [ "CenterFront" ]
+            ],
+            "6": [
+                [ "Left", "Right" ],
+                [ "CenterRear" ],
+                [ "Left", "Right" ],
+                [ "CenterFront" ]
+            ],
+            "7": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "8": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "9": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "10": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "11": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "CenterRear" ],
+                [ "LeftRearOuter", "RightRearOuter", "CenterFront" ]
+            ],
+            "12": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "CenterFront" ]
+            ],
+            "13": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "CenterFront" ],
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontIn", "RightFrontIn" ],
+                [ "CenterFront" ]
+            ],
+            "14": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "CenterFront" ],
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontIn", "RightFrontIn" ],
+                [ "CenterFront" ]
+            ],
+            "15": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "CenterMid" ],
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontIn", "RightFrontIn" ],
+                [ "CenterFront" ]
+            ],
+            "16": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "CenterMid" ],
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFrontIn", "RightFrontIn" ],
+                [ "CenterFront" ]
+            ],
+            "17": [
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "CenterRear" ],
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "Standard" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "18": [
+                [ "RightFrontInner", "LeftFrontInner" ],
+                [ "RightRearInner", "LeftRearInner" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "19": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "CenterRear" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearInner", "RightRearInner", "CenterRear" ]
+            ],
+            "20": [ [ "CenterFront" ] ],
+            "9999": [ [ "Center" ] ],
+            "21": [
+                [ "LeftFrontInner", "RightFrontInner" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ]
+            ],
+            "22": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "LeftRearOuter", "RightRearOuter" ],
+                [ "LeftFrontInner", "RightFrontInner" ]
+            ],
+            "23": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "LeftFrontInner", "RightFrontInner" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "24": [
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "LeftFrontInner", "RightFrontInner" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "26": [ [ "LeftFrontOuter", "RightFrontOuter" ] ],
+            "27": [
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ]
+            ],
+            "28": [
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "LeftFrontOuter", "RightFrontOuter", "LeftRearInner", "RightRearInner" ],
+                [ "LeftRearInner", "RightRearInner" ]
+            ],
+            "29": [
+                [ "RightFrontOuter", "LeftFrontOuter" ],
+                [ "RightRearOuter", "LeftRearOuter" ]
+            ],
+            "30": [ [ "CenterFront" ] ],
+            "31": [ [ "LeftFrontOuter", "RightFrontOuter" ] ],
+            "32": [ [ "LeftFrontInner", "RightFrontInner", "CenterFront" ] ],
+            "33": [
+                [ "CenterFront" ],
+                [ "LeftFrontInner", "RightFrontInner" ]
+            ],
+            "34": [ [ "Center" ] ],
+            "35": [ [ "CenterFront" ] ],
+            "36": [
+                [ "CenterFront" ],
+                [ "LeftFrontInner", "RightFrontInner" ]
+            ],
+            "37": [
+                [ "RightRearInner", "LeftRearInner" ],
+                [ "CenterFront", "CenterRear" ],
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "38": [
+                [ "CenterFront" ],
+                [ "LeftFrontInner", "RightFrontInner" ]
+            ],
+            "39": [ [ "CenterFront" ] ],
+            "40": [
+                [ "CenterFront" ],
+                [ "CenterFront" ]
+            ],
+            "41": [
+                [ "CenterFront" ],
+                [ "CenterRear" ],
+                [ "CenterRear", "CenterFront" ]
+            ],
+            "42": [
+                [ "CenterRear" ],
+                [ "CenterFront", "RightRearOuter", "LeftRearOuter" ],
+                [ "RightRearOuter", "LeftRearOuter" ],
+                [ "CenterFront" ],
+                [ "CenterFront", "RightFrontOuter", "LeftFrontOuter" ],
+                [ "RightFrontInner", "LeftFrontInner" ]
+            ],
+            "43": [
+                [ "RightFrontInner", "LeftFrontInner" ],
+                [ "CenterFront", "RightRearOuter", "LeftRearOuter" ],
+                [ "RightFrontInner", "LeftFrontInner" ],
+                [ "CenterMiddle", "RightRearOuter", "LeftRearOuter" ],
+                [ "RightFrontInner", "LeftFrontInner" ],
+                [ "CenterFront", "RightFrontOuter", "LeftFrontOuter" ],
+                [ "RightFrontInner", "LeftFrontInner" ],
+                [ "CenterMiddle", "RightRearOuter", "LeftRearOuter" ]
+            ],
+            "80": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "81": [
+                [ "LeftFrontOuter", "RightFrontOuter" ],
+                [ "CenterRear" ],
+                [ "LeftRearInner", "RightRearInner" ],
+                [ "Standard" ],
+                [ "LeftRearOuter", "RightRearOuter" ]
+            ],
+            "82": [
+                [ "LeftRearIn", "RightRearIn" ],
+                [ "LeftFrontIn", "RightFrontIn", "CenterRear" ],
+                [ "LeftFrontOut", "RightFrontOut" ],
+                [ "LeftRearOut", "RightRearOut", "CenterFront" ]
+            ]
+        }
+    },
+    "gameMsg": {
+        "msgFonts": {
+            "1": {
+                "isBold": true,
+                "size": "12px",
+                "shadowC": "black",
+                "shadowBlur": 10,
+                "way": 1,
+                "y": 20
+            },
+            "2": {
+                "size": "50px",
+                "shadowC": 0,
+                "shadowBlur": 0,
+                "way": 1,
+                "y": 50
+            },
+            "3": {
+                "size": "bold 48px",
+                "shadowC": "#0000ff",
+                "shadowBlur": 10,
+                "way": 1,
+                "y": 250
+            },
+            "4": {
+                "size": "bold 30px",
+                "shadowC": "#000000",
+                "shadowBlur": 10,
+                "way": 1,
+                "y": 300
+            },
+            "5": {
+                "size": "bold 34px",
+                "shadowC": "#000000",
+                "shadowBlur": 10,
+                "way": 1,
+                "y": 300
+            }
+        }
+    },
     "colors": {
         "HP_COLOR": "#49BE40",
         "SHD_COLOR": "#338FCC",
@@ -1324,100 +1849,100 @@
         "darkgreen": "#fefe00",
         "gold": "#fefe00"
     },
-  "Portals": {
-    "0": {
-      "name": "portal_std",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
+    "Portals": {
+        "0": {
+            "name": "portal_std",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "1": {
+            "name": "portal_zeta",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 1
+        },
+        "2": {
+            "name": "portal_firefight",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "3": {
+            "name": "portal_gga",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "4": {
+            "name": "portal_ggb",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "5": {
+            "name": "portal_ggy",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "6": {
+            "name": "portal_ggd",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "7": {
+            "name": "portal_gge",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "8": {
+            "name": "portal_ggk",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "11": {
+            "name": "portal_ggv",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "12": {
+            "name": "portal_ggsigma",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "13": {
+            "name": "portal_tdm",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0
+        },
+        "14": {
+            "name": "portal_krono",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 2
+        },
+        "9": {
+            "name": "portal_ggfl",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0,
+            "useActive": false
+        },
+        "10": {
+            "name": "portal_ggfr",
+            "sprite_active": 1,
+            "sprite_idle": 1,
+            "jump_animation": 0,
+            "useActive": false
+        }
     },
-    "1": {
-      "name": "portal_zeta",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 1
-    },
-    "2": {
-      "name": "portal_firefight",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "3": {
-      "name": "portal_gga",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "4": {
-      "name": "portal_ggb",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "5": {
-      "name": "portal_ggy",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "6": {
-      "name": "portal_ggd",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "7": {
-      "name": "portal_gge",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "8": {
-      "name": "portal_ggk",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "11": {
-      "name": "portal_ggv",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "12": {
-      "name": "portal_ggsigma",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "13": {
-      "name": "portal_tdm",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0
-    },
-    "14": {
-      "name": "portal_krono",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 2
-    },
-    "9": {
-      "name": "portal_ggfl",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0,
-      "useActive": false
-    },
-    "10": {
-    "name": "portal_ggfr",
-      "sprite_active": 1,
-      "sprite_idle": 1,
-      "jump_animation": 0,
-      "useActive": false
-    }
-  },
     "SETTINGS_ENUM": {
         "GRAPHICS": 0,
         "GAMEPLAY": 1,
