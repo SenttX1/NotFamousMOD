@@ -53,8 +53,10 @@
         "120": {"name": "G-Poland", "icon": "gpoland", "desc": "gpoland_shop_desc"},
         "121": {"name": "G-England", "icon": "gengland", "desc": "gengland_shop_desc"},
         "122": {"name": "G-France", "icon": "gfrance", "desc": "gfrance_shop_desc"},
-        "123": {"name": "G-Belgium", "icon": "gbelgium", "desc": "gbelgium_shop_desc"}
-        
+        "123": {"name": "G-Belgium", "icon": "gbelgium", "desc": "gbelgium_shop_desc"},
+        "128": {"name": "G-Frost", "icon": "gfrost", "desc": "gfrost_shop_desc"}
+     
+    
     },
     "2": {
         "1": {"name": "LF-4", "icon": "lf4", "desc": "lf4_shop_desc"},
