@@ -840,6 +840,13 @@
             "laserClass": 9999,
             "offsetId": 34,
             "clickRadius": 70
+        },
+        "128": {
+            "engineClass": 43,
+            "laserClass": 82,
+            "offsetId": 1,
+            "clickRadius": 70,
+            "visualExpansions": [ 21 ]
         }
     },  
   "offsets": {
