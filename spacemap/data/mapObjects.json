@@ -4596,7 +4596,7 @@
         ],
         "planets": [],
         "nebulas": [],
-        "snowflakes": 200,
+        "snowflakes": 0,
         "fogOfWar": true,
         "nonGroupEnemies": true,
         "allowGroupFire": false,

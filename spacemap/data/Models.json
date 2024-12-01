@@ -403,9 +403,9 @@
         },
         "124": {
             "path": "ships/superIceAsteroid",
-            "end": 0,
+            "end": 10,
             "start": 0,
-            "isWebp": true,
+            "isWebp": false,
             "preload": true,
             "unload": false,
             "isSingleFile": false,
@@ -414,16 +414,20 @@
         },
         "125": {
             "path": "ships/emperorCrylox",
-            "end": 0,
+            "end": 8,
             "start": 0,
-            "isWebp": true,
+            "isWebp": false,
             "preload": true,
             "unload": false,
             "isSingleFile": false,
             "customExtension": null,
             "useAtlas": false
         },
+        "126": [ "ships/santaBot", 64, 0, true, true, true ],
+        "127": [ "ships/santaPET", 64, 0, true, true, true ],
         "128": [ "ships/goliathFrost", 64, 0, true, true, true ],
+        "129": [ "ships/vengeanceFrost", 64, 0, true, true, true ],
+        "130": [ "ships/phoenixFrost", 64, 0, true, true, true ],
         "131": [ "ships/xmasPET", 64, 0, true, true, true ]
 
     },
