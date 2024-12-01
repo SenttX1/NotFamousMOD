@@ -1035,7 +1035,7 @@
         "18": [ "collectables/pumpkin", 26, 1, false ],
         "19": [ "collectables/jackolanterium", 25, 1, false ],
         "20": [ "collectables/prismium", 0, 0, false ],
-        "21": [ "collectables/gifts", 29, 0, true ]
+        "21": [ "collectables/gifts", 29, 0, false ]
 
     },
     "beams": {
@@ -1054,6 +1054,7 @@
         "1": [ "ui/ping/1", 0, 0, false, true, true, true ]
     },
     "fields": {
-        "0": [ "fields/0", 0, 0, false, true, true, true ]
+        "0": [ "fields/0", 0, 0, false, true, true, true ],
+        "1": [ "fields/1", 0, 0, false, true, true, true ]
     }
 }
