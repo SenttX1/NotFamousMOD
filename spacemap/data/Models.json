@@ -1034,7 +1034,9 @@
         "17": [ "collectables/selenite", 39, 1, false ],
         "18": [ "collectables/pumpkin", 26, 1, false ],
         "19": [ "collectables/jackolanterium", 25, 1, false ],
-        "20": [ "collectables/prismium", 0, 0, false ]
+        "20": [ "collectables/prismium", 0, 0, false ],
+        "21": [ "collectables/gifts", 29, 0, true ]
+
     },
     "beams": {
         "0": [ "effects/beam", 15, 1, true ]
