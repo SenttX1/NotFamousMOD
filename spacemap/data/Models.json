@@ -321,7 +321,7 @@
         "91": [ "ships/bronze", 64, 0, true, false, false ],
         "92": [ "ships/silver", 64, 0, true, false, false ],
         "93": [ "ships/gold", 64, 0, true, false, false ],
-        "94": [ "ships/ignite", 32, 0, true, false, false ],
+        "94": [ "ships/ignite", 64, 0, true, false, false ],
         "95": [ "ships/redg", 64, 0, true, true, true ],
         "96": [ "ships/moduleXp", 0, 0, false, true, true ],
         "97": [ "ships/moduleHp", 0, 0, false, true, true ],
@@ -617,7 +617,9 @@
         "20": [ "expansions/20", 94, 0, true ],
         "21": [ "expansions/21", 94, 0, true ],
         "22": [ "expansions/22", 94, 0, true ],
-        "23": [ "expansions/23", 1, 1, false ]
+        "23": [ "expansions/23", 1, 1, false ],
+        "24": [ "expansions/24", 94, 0, true ]
+
 
     },
     "planets": {
