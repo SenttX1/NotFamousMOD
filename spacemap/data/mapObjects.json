@@ -4580,6 +4580,7 @@
         "name": "GG Cold Wave 2024",
         "theme": "jolly",
         "scale": 1,
+        "bg": 98,
         "offset": {
             "x": -1050,
             "y": -650
@@ -4707,6 +4708,7 @@
         "name": "GG Cold Wave 2024 II",
         "theme": "jolly",
         "scale": 1,
+        "bg": 98,
         "offset": {
             "x": -1050,
             "y": -650
