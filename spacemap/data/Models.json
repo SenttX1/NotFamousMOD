@@ -428,7 +428,62 @@
         "128": [ "ships/goliathFrost", 64, 0, true, true, true ],
         "129": [ "ships/vengeanceFrost", 64, 0, true, true, true ],
         "130": [ "ships/phoenixFrost", 64, 0, true, true, true ],
-        "131": [ "ships/xmasPET", 64, 0, true, true, true ]
+        "131": [ "ships/xmasPET", 64, 0, true, true, true ],
+        "132": {
+            "path": "ships/spectrumFrost",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "133": {
+            "path": "ships/ignite",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "134": {
+            "path": "ships/gCrimson",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "135": {
+            "path": "ships/gOrange",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "136": {
+            "path": "ships/gOcean",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        }
 
     },
     "minimap": {
