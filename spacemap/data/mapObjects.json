@@ -3109,18 +3109,15 @@
         "stations": []
     },
     "101": {
-        "name": "JP",
+        "offset": {
+            "x": -1050,
+            "y": -650
+        },
+        "scale": 0.25,
+        "name": "JPA",
         "portals": [],
         "lensflares": [],
-        "planets": [
-            {
-                "x": "1020",
-                "y": "740",
-                "z": "10",
-                "id": "9999",
-                "mScale": 10
-            }
-        ],
+        "planets": [],
         "nebulas": [],
         "stations": []
     },

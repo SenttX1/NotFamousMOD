@@ -202,6 +202,11 @@
         "14": "vandal"
     },
     "palDesignDictionary": {
-        "84": "P.A.L."
+        "84": "P.E.T.",
+        "85": "P.E.T. Cuboran",
+        "86": "P.E.T. Green",
+        "87": "P.E.T. Red",
+        "127": "P.E.T. Santa",
+        "131": "P.E.T. Frosty"
     }
 }

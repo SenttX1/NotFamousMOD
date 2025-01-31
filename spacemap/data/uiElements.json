@@ -296,7 +296,18 @@
                     "name": "glow_disabled",
                     "isCheck": true,
                     "options": []
-                }],
+                },
+                {
+                    "name": "latency_mode",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "snowy_overlay",
+                    "isCheck": true,
+                    "options": []
+                }
+            ],
                 [{
                     "name": "show_nick",
                     "isCheck": true,
@@ -348,6 +359,21 @@
                 },
                 {
                     "name": "username_borders",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_auto_toggle",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "pro_ignore_keys",
+                    "isCheck": true,
+                    "options": []
+                },
+                {
+                    "name": "ab_colorful",
                     "isCheck": true,
                     "options": []
                 }
@@ -521,6 +547,30 @@
                 },
                 {
                     "name": "laser_attack",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "pro_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_toggle",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_1",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_2",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_3",
+                    "isKeyInput": true
+                },
+                {
+                    "name": "qc_msg_4",
                     "isKeyInput": true
                 }
             ],
@@ -886,6 +936,21 @@
             "name": "fullscreen",
             "icon": "fullscreen",
             "label": "fullscreen_label",
+            "phoneState": false,
+            "isSeperateContr": true,
+            "controller": {
+                "bottomPop": true,
+                "right": 90,
+                "y": 0,
+                "useDefPosition": false
+            }
+        },
+        {
+            "id": 31,
+            "name": "mobile_ab_sub",
+            "icon": "ab_submenu",
+            "label": "mobile_ab_sub_label",
+            "phoneState": true,
             "isSeperateContr": true,
             "controller": {
                 "bottomPop": true,
@@ -1371,7 +1436,7 @@
                     "skills": [
                         [
                             {"id": 0, "lvl": 0, "name": "ev_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
-                            {"id": 1, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 25000}}
+                            {"id": 1, "useModern": true, "lvl": 0, "name": "hp_pp_02", "requires": [{"sId": 0, "id": 0}], "maxPoints": 3, "coef": false, "lvlData": {"1": 15000, "2": 20000, "3": 40000}}
                         ],
                         [
                             {"id": 2, "lvl": 0, "name": "uri_pp_01", "maxPoints": 2, "lvlData": {"1": 2, "2": 4}},
@@ -1432,7 +1497,9 @@
                     {"id": 9, "label": "shop_help_title", "memberOnly": true},
                     {"id": 5, "label": "company", "memberOnly": false},
                     {"id": 6, "label": "join", "singleOnly": true},
-                    {"id": 7, "label": "create", "singleOnly": true}
+                    {"id": 7, "label": "create", "singleOnly": true},
+                    {"id": 11, "label": "clan_ops", "memberOnly": true, "leaderOnly": true, "buildingTypeReq": ["hq", "clan_op_hub"]},
+                    {"id": 12, "label": "clan_building", "memberOnly": true, "leaderOnly": true}
                 ],
                 "factions": [
                     {"id": 1, "label": "mmo"},
@@ -1754,6 +1821,25 @@
             "label": "perfboard_label",
             "isOpen": false,
             "dynamic": true,
+            "hasComponent": true,
+            "size": {
+                "minW": 700,
+                "minH": 450
+            },
+            "controller": {
+                "x": 0,
+                "y": 156,
+                "useDefPosition": true
+            },
+            "content": {}
+        },
+        {
+            "id": 30,
+            "position": 30,
+            "name": "poll",
+            "icon": "poll",
+            "label": "poll_label",
+            "isOpen": false,
             "hasComponent": true,
             "size": {
                 "minW": 700,

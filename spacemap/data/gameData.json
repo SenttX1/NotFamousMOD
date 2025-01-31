@@ -1,33 +1,33 @@
 {
     "shipData": {
         "1": {
-            "engineClass": 45,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
         "2": {
-            "engineClass": 45,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 2,
             "clickRadius": 70
         },
         "3": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 2,
+            "laserClass": 2,
             "offsetId": 3,
             "clickRadius": 55
         },
         "4": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 2,
+            "laserClass": 2,
             "offsetId": 2,
             "clickRadius": 55
         },
         "5": {
-            "engineClass": 18,
-            "laserClass": 18,
-            "offsetId": 21,
+            "engineClass": 2,
+            "laserClass": 2,
+            "offsetId": 2,
             "clickRadius": 55
         },
         "6": {
@@ -52,7 +52,7 @@
             "engineClass": 5,
             "laserClass": 5,
             "offsetId": 9,
-            "clickRadius": 70
+            "clickRadius": 40
         },
         "10": {
             "engineClass": 6,
@@ -73,10 +73,10 @@
             "clickRadius": 50
         },
         "106": {
-            "engineClass": 44,
-            "laserClass": 82,
+            "engineClass": 8,
+            "laserClass": 8,
             "offsetId": 12,
-            "clickRadius": 70
+            "clickRadius": 50
         },
         "13": {
             "engineClass": 9,
@@ -85,122 +85,122 @@
             "clickRadius": 60
         },
         "14": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
         "15": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 2,
+            "laserClass": 2,
             "offsetId": 2,
             "clickRadius": 55
         },
         "16": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 2,
+            "laserClass": 2,
             "offsetId": 2,
             "clickRadius": 55
         },
         "17": {
-            "engineClass": 45,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
         "18": {
-            "engineClass": 45,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
         "19": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "20": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "21": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "83": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "22": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
         "23": {
-            "engineClass": 46,
-            "laserClass": 82,
+            "engineClass": 14,
+            "laserClass": 14,
             "offsetId": 14,
             "clickRadius": 70
         },
         "24": {
-            "engineClass": 47,
-            "laserClass": 82,
+            "engineClass": 12,
+            "laserClass": 12,
             "offsetId": 15,
             "clickRadius": 70
         },
         "25": {
-            "engineClass": 49,
-            "laserClass": 82,
+            "engineClass": 16,
+            "laserClass": 16,
             "offsetId": 16,
             "clickRadius": 70
         },
         "26": {
-            "engineClass": 48,
-            "laserClass": 82,
+            "engineClass": 13,
+            "laserClass": 13,
             "offsetId": 17,
             "clickRadius": 70
         },
         "27": {
-            "engineClass": 48,
-            "laserClass": 82,
+            "engineClass": 15,
+            "laserClass": 15,
             "offsetId": 18,
             "clickRadius": 70
         },
         "28": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "107": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "29": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 10,
+            "laserClass": 17,
             "offsetId": 19,
             "clickRadius": 55
         },
         "30": {
             "engineClass": 18,
-            "laserClass": 82,
+            "laserClass": 18,
             "offsetId": 21,
             "clickRadius": 55
         },
         "31": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 19,
+            "laserClass": 19,
             "offsetId": 10,
             "clickRadius": 70
         },
@@ -321,7 +321,7 @@
         },
         "48": {
             "engineClass": 23,
-            "laserClass": 82,
+            "laserClass": 22,
             "offsetId": 33,
             "clickRadius": 70
         },
@@ -517,32 +517,32 @@
             "clickRadius": 70
         },
         "78": {
-            "engineClass": 42,
-            "laserClass": 82,
+            "engineClass": 37,
+            "laserClass": 37,
             "offsetId": 1,
             "clickRadius": 70
         },
         "79": {
-            "engineClass": 42,
-            "laserClass": 82,
+            "engineClass": 37,
+            "laserClass": "37",
             "offsetId": 1,
             "clickRadius": 70
         },
         "80": {
-            "engineClass": 42,
-            "laserClass": 82,
+            "engineClass": 37,
+            "laserClass": 37,
             "offsetId": 1,
             "clickRadius": 70
         },
         "81": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "82": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
@@ -589,45 +589,44 @@
             "engineClass": 9999,
             "laserClass": 38,
             "offsetId": 1,
-            "clickRadius": 70,
-            "isSpinny": true
+            "clickRadius": 70
         },
         "90": {
             "engineClass": 9999,
             "laserClass": 38,
             "offsetId": 1,
-            "clickRadius": 70,
-            "isSpinny": true
+            "clickRadius": 70
         },
         "91": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "92": {
-            "engineClass": 43,
+            "engineClass": 41,
             "laserClass": 82,
             "offsetId": 1,
             "clickRadius": 70
         },
         "93": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
-            "clickRadius": 70,
-            "visualExpansions": [ 23 ]
+            "clickRadius": 70
         },
         "94": {
-            "engineClass": 51,
-            "laserClass": 81,
+            "engineClass": 42,
+            "laserClass": 82,
             "offsetId": 1,
             "clickRadius": 70,
+            "destroyExplosion": 4,
             "visualExpansions": [ 24 ]
+
         },
         "95": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 1,
+            "laserClass": 1,
             "offsetId": 1,
             "clickRadius": 70
         },
@@ -740,34 +739,28 @@
             "clickRadius": 70
         },
         "110": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 40,
+            "laserClass": 81,
             "offsetId": 19,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
             "visualExpansions": [ 20 ]
         },
         "111": {
-            "engineClass": 41,
-            "laserClass": 82,
+            "engineClass": 40,
+            "laserClass": 81,
             "offsetId": 19,
-            "visualExpansions": [ 22 ]
-        },
-        "112": {
-            "engineClass": 41,
-            "laserClass": 82,
-            "offsetId": 19,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
             "visualExpansions": [ 21 ]
         },
-        "115": {
-            "engineClass": 43,
-            "laserClass": 82,
-            "offsetId": 10,
-            "clickRadius": 70
-        },
-        "116": {
-            "engineClass": 43,
-            "laserClass": 82,
-            "offsetId": 1,
-            "clickRadius": 70
+        "112": {
+            "engineClass": 40,
+            "laserClass": 81,
+            "offsetId": 19,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
+            "visualExpansions": [ 21 ]
         },
         "113": {
             "cbsModule": true,
@@ -785,10 +778,16 @@
             "offsetId": 13,
             "clickRadius": 70
         },
-        "117": {
-            "engineClass": 9999,
-            "laserClass": 9999,
-            "offsetId": 13,
+        "115": {
+            "engineClass": 1,
+            "laserClass": 82,
+            "offsetId": 1,
+            "clickRadius": 70
+        },
+        "116": {
+            "engineClass": 41,
+            "laserClass": 82,
+            "offsetId": 1,
             "clickRadius": 70
         },
         "118": {
@@ -801,42 +800,44 @@
             "spinTime": 1500
         },
         "119": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "120": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "121": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "122": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "123": {
-            "engineClass": 43,
-            "laserClass": 82,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
         "124": {
+            "overrideId": 9,
             "engineClass": 9999,
             "laserClass": 9999,
             "offsetId": 34,
             "clickRadius": 70
         },
         "125": {
+            "overrideId": 9,
             "engineClass": 9999,
             "laserClass": 9999,
             "offsetId": 34,
@@ -844,71 +845,111 @@
         },
         "126": {
             "engineClass": 9999,
-            "laserClass": 9999,
+            "laserClass": 38,
             "offsetId": 1,
             "clickRadius": 70
         },
         "127": {
-            "engineClass": 9999,
-            "laserClass": 9999,
-            "offsetId": 1,
-            "clickRadius": 70
+            "engineClass": 45,
+            "laserClass": 84,
+            "offsetId": 6,
+            "clickRadius": 40,
+            "visualExpansions": [ 21 ]
         },
         "128": {
-            "engineClass": 51,
+            "engineClass": 43,
             "laserClass": 82,
             "offsetId": 1,
             "clickRadius": 70,
-            "visualExpansions": [ 21 ]
+            "visualExpansions": [ 21 ],
+            "destroyExplosion": 3,
+            "destroyShockwave": false
         },
         "129": {
-            "engineClass": 41,
-            "laserClass": 82,
-            "offsetId": 19,
+            "engineClass": 44,
+            "laserClass": 83,
+            "offsetId": 1,
             "clickRadius": 70,
             "visualExpansions": [ 21 ]
         },
         "130": {
-            "engineClass": 41,
-            "laserClass": 82,
-            "offsetId": 19,
-            "clickRadius": 70
+            "engineClass": 45,
+            "laserClass": 84,
+            "offsetId": 6,
+            "clickRadius": 40,
+            "visualExpansions": [ 21 ]
         },
         "131": {
-            "engineClass": 9999,
-            "laserClass": 9999,
-            "offsetId": 1,
-            "clickRadius": 70
+            "engineClass": 38,
+            "laserClass": 43,
+            "offsetId": 3,
+            "clickRadius": 70,
+            "visualExpansions": [ 9 ]
         },
         "132": {
-            "engineClass": 45,
-            "laserClass": 82,
-            "offsetId": 2,
-            "clickRadius": 70
+            "engineClass": 14,
+            "laserClass": 14,
+            "offsetId": 14,
+            "engineTop": false,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
+            "destroyExplosion": 3,
+            "destroyShockwave": false,
+            "visualExpansions": [ 21 ]
         },
         "133": {
-            "engineClass": 45,
+            "engineClass": 46,
             "laserClass": 82,
-            "offsetId": 2,
-            "clickRadius": 70
+            "offsetId": 1,
+            "engineTop": true,
+            "destroyExplosion": 3,
+            "destroyShockwave": false,
+            "visualExpansions": [ 20 ]
+
         },
         "134": {
-            "engineClass": 45,
+            "engineClass": 42,
             "laserClass": 82,
-            "offsetId": 2,
-            "clickRadius": 70
+            "offsetId": 1,
+            "engineTop": true,
+            "destroyExplosion": 3,
+            "destroyShockwave": false
         },
         "135": {
-            "engineClass": 45,
+            "engineClass": 42,
             "laserClass": 82,
-            "offsetId": 2,
-            "clickRadius": 70
+            "offsetId": 1,
+            "engineTop": true,
+            "destroyExplosion": 3,
+            "destroyShockwave": false
         },
         "136": {
-            "engineClass": 45,
+            "engineClass": 42,
             "laserClass": 82,
-            "offsetId": 2,
-            "clickRadius": 70
+            "offsetId": 1,
+            "engineTop": true,
+            "destroyExplosion": 3,
+            "destroyShockwave": false
+        },
+        "137": {
+            "engineClass": 12,
+            "laserClass": 12,
+            "offsetId": 15,
+            "engineTop": false,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
+            "destroyExplosion": 3,
+            "destroyShockwave": false
+        },
+        "138": {
+            "engineClass": 13,
+            "laserClass": 13,
+            "offsetId": 17,
+            "engineTop": false,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
+            "destroyExplosion": 3,
+            "destroyShockwave": false
         }
     },
     "offsets": {
@@ -1281,7 +1322,7 @@
             "disrupt": {
                 "0": {
                     "x": 75,
-                    "y": 350
+                    "y": 75
                 }
             },
             "laser": {
@@ -1428,16 +1469,21 @@
             "21": 1750,
             "22": 1750,
             "24": 1750
-
         }
     },
     "animationTimes": {
+        "SMOKES": {
+            "1": 500,
+            "trail": 2000
+        },
         "EXPLOSIONS": {
             "explosion": {
-                "0": 1500
+                "0": 1500,
+                "3": 1500,
+                "4": 700
             },
             "disrupt": {
-                "0": 834
+                "0": 500
             },
             "laser": {
                 "0": 1000,
@@ -1460,7 +1506,18 @@
             "firework": {
                 "1": 3500,
                 "2": 3500,
-                "3": 3500
+                "3": 3500,
+                "4": 4000,
+                "5": 4000
+            },
+            "hyperspace": {
+                "1": 2000,
+                "2": 500,
+                "3": 500,
+                "4": 1000
+            },
+            "shipEffect": {
+                "trail": 2000
             }
         },
         "SHIELDS": {
@@ -1477,6 +1534,8 @@
             "Singularity": 1500,
             "WeakShield": 1120,
             "RapidFire": 2000,
+            "ParticleCharge": 2500,
+            "ParticleChargeElegant": 2500,
             "EmergencyRepair": 1700,
             "Turbo": 1000,
             "invincibility": 1500
@@ -1495,7 +1554,8 @@
         "FIREWORKS": {
             "1": 2500,
             "2": 2500,
-            "3": 2500
+            "3": 2500,
+            "4": 4000
         },
         "LENS_FLARES": {
             "0": 500,
@@ -1522,7 +1582,6 @@
             "17": 40,
             "18": 1200,
             "19": 1200,
-            "20": 1200,
             "21": 1200
         },
         "BEAMS": {
@@ -1829,6 +1888,18 @@
                 [ "LeftFrontIn", "RightFrontIn", "CenterRear" ],
                 [ "LeftFrontOut", "RightFrontOut" ],
                 [ "LeftRearOut", "RightRearOut", "CenterFront" ]
+            ],
+            "83": [
+                [ "LeftRear", "RightRear" ],
+                [ "CenterRear" ],
+                [ "LeftFront", "RightFront" ],
+                [ "CenterFront" ]
+            ],
+            "84": [
+                [ "Left", "Right" ],
+                [ "CenterRear" ],
+                [ "Left", "Right" ],
+                [ "CenterFront" ]
             ]
         }
     },
@@ -2014,8 +2085,12 @@
         "SOUND": 3,
         "KEYBOARD": 4,
         "GAMEPAD": 5,
+        "SNOWY_OVERLAY": 7,
         "18PLUSFILTER": 10,
         "NAMES_BORDER": 11,
+        "PRO_AUTO_TOGGLE": 12,
+        "PRO_IGNORE_KEYS": 13,
+        "AB_COLORFUL": 14,
         "BG": 0,
         "OBJECTS": 1,
         "NEBULAS": 2,
@@ -2089,7 +2164,13 @@
             "TECH_BSHD": 38,
             "TECH_LEECH": 39,
             "TRIGGER_CLOAK": 40,
-            "LASER_ATTACK": 41
+            "LASER_ATTACK": 41,
+            "PRO_TOGGLE": 42,
+            "QC_CHAT": 43,
+            "QC_MSG_1": 44,
+            "QC_MSG_2": 45,
+            "QC_MSG_3": 46,
+            "QC_MSG_4": 47
         },
         "GAMEPADBINDS": {
             "AB_1": 0,
