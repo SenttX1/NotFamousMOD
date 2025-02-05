@@ -1624,7 +1624,7 @@
             "useAtlas": false
         },
         "5": {
-            "path": "ships/vengeancedef",
+            "path": "ships/pusat",
             "end": 64,
             "start": 0,
             "isWebp": true,
@@ -1900,7 +1900,7 @@
         },
         "30": {
             "path": "ships/pusat",
-            "end": 32,
+            "end": 64,
             "start": 0,
             "isWebp": true,
             "preload": true,

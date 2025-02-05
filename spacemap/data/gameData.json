@@ -25,9 +25,9 @@
             "clickRadius": 55
         },
         "5": {
-            "engineClass": 2,
+            "engineClass": 18,
             "laserClass": 2,
-            "offsetId": 2,
+            "offsetId": 37,
             "clickRadius": 55
         },
         "6": {
@@ -195,7 +195,7 @@
         "30": {
             "engineClass": 18,
             "laserClass": 18,
-            "offsetId": 21,
+            "offsetId": 37,
             "clickRadius": 55
         },
         "31": {
@@ -866,9 +866,11 @@
             "destroyShockwave": false
         },
         "129": {
-            "engineClass": 39,
+            "engineClass": 18,
             "laserClass": 83,
             "offsetId": 37,
+            "frostyTrail": true,
+            "frostyTrailTime": 500,
             "clickRadius": 70,
             "visualExpansions": [ 21 ]
         },
