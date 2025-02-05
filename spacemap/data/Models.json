@@ -1579,940 +1579,1293 @@
         ]
     },
     "ships": {
-        "1": [
-            "ships/enforcer",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "2": [
-            "ships/bastion",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "3": [
-            "ships/vengeance",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "4": [
-            "ships/avenger",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "5": [
-            "ships/vengeancedef",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "6": [
-            "ships/phoenix",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "7": [
-            "ships/yamato",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "8": [
-            "ships/defcom",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "9": [
-            "ships/leonov",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "10": [
-            "ships/liberator",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "11": [
-            "ships/piranha",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "12": [
-            "ships/nostromo",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "13": [
-            "ships/bigboy",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "14": [
-            "ships/goliath",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "15": [
-            "ships/vhonor",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "16": [
-            "ships/vexp",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "17": [
-            "ships/gexp",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "18": [
-            "ships/ghon",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "19": [
-            "ships/goal",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "20": [
-            "ships/kick",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "21": [
-            "ships/referee",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "22": [
-            "ships/america",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "23": [
-            "ships/spectrum",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "24": [
-            "ships/solace",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "25": [
-            "ships/venom",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "26": [
-            "ships/diminisher",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "27": [
-            "ships/sentinel",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "28": [
-            "ships/turkey",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "29": [
-            "ships/vlight",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "30": [
-            "ships/pusat",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "31": [
-            "ships/surgeon",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "32": [
-            "ships/streuner",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "33": [
-            "ships/lordakia",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "34": [
-            "ships/saimon",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "35": [
-            "ships/mordon",
-            3,
-            0,
-            true,
-            false,
-            true
-        ],
-        "36": [
-            "ships/devolarium",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "37": [
-            "ships/sibelon",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "38": [
-            "ships/sibelonit",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "39": [
-            "ships/lordakium",
-            15,
-            0,
-            true,
-            false,
-            true
-        ],
-        "40": [
-            "ships/kristallin",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "41": [
-            "ships/kristallon",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "42": [
-            "ships/cubikon",
-            0,
-            0,
-            true,
-            false,
-            true
-        ],
-        "43": [
-            "ships/protegit",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "44": [
-            "ships/vagrant",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "45": [
-            "ships/marauder",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "46": [
-            "ships/outcast",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "47": [
-            "ships/convict",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "48": [
-            "ships/hooligan",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "49": [
-            "ships/ravager",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "50": [
-            "ships/corsair",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "51": [
-            "ships/falcon",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "52": [
-            "ships/inter",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "53": [
-            "ships/bara",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "54": [
-            "ships/ani",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "55": [
-            "ships/infernal",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "56": [
-            "ships/scorcher",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "57": [
-            "ships/melter",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "58": [
-            "ships/devourer",
-            16,
-            1,
-            true,
-            false,
-            true
-        ],
-        "59": [
-            "ships/strauner",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "60": [
-            "ships/straunerboss",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "61": [
-            "ships/saimonboss",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "62": [
-            "ships/streunerboss",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "63": [
-            "ships/bosslordakia",
-            32,
-            1,
-            true,
-            false,
-            true
-        ],
-        "65": [
-            "ships/bossmordon",
-            16,
-            1,
-            true,
-            false,
-            true
-        ],
-        "66": [
-            "ships/bossdevo",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "67": [
-            "ships/bosssibelon",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "68": [
-            "ships/bosssibelonit",
-            32,
-            1,
-            true,
-            false,
-            true
-        ],
-        "69": [
-            "ships/bosslordakium",
-            22,
-            1,
-            true,
-            false,
-            true
-        ],
-        "70": [
-            "ships/bosskristallin",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "71": [
-            "ships/bosskristallon",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "72": [
-            "ships/uberkristallin",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "73": [
-            "ships/uberkristallon",
-            2,
-            1,
-            true,
-            false,
-            true
-        ],
-        "74": [
-            "ships/kuc",
-            36,
-            1,
-            true,
-            false,
-            true
-        ],
-        "75": [
-            "ships/bosskuc",
-            36,
-            1,
-            true,
-            false,
-            true
-        ],
-        "76": [
-            "ships/demaner",
-            32,
-            0,
-            true,
-            false,
-            true
-        ],
-        "77": [
-            "ships/icy",
-            32,
-            0,
-            false,
-            false,
-            true
-        ],
-        "78": [
-            "ships/vanquisher",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "79": [
-            "ships/sovereign",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "80": [
-            "ships/peacemaker",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "81": [
-            "ships/saturn",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "82": [
-            "ships/german",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "83": [
-            "ships/referee",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "84": [
-            "ships/petPro",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "85": [
-            "ships/petAdvanced",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "86": [
-            "ships/petFull",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "87": [
-            "ships/petPro",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "88": [
-            "ships/icemeteroid",
-            61,
-            1,
-            true,
-            false,
-            false
-        ],
-        "89": [
-            "ships/refereebot",
-            8,
-            0,
-            true,
-            false,
-            false
-        ],
-        "90": [
-            "ships/robot",
-            8,
-            0,
-            true,
-            false,
-            false
-        ],
-        "91": [
-            "ships/bronze",
-            64,
-            0,
-            true,
-            false,
-            false
-        ],
-        "92": [
-            "ships/silver",
-            64,
-            0,
-            true,
-            false,
-            false
-        ],
-        "93": [
-            "ships/gold",
-            64,
-            0,
-            true,
-            false,
-            false
-        ],
-        "94": [
-            "ships/gspace",
-            64,
-            0,
-            true,
-            false,
-            false
-        ],
-        "95": [
-            "ships/redg",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "96": [
-            "ships/moduleXp",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "97": [
-            "ships/moduleHp",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "98": [
-            "ships/moduleDmg",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "99": [
-            "ships/moduleShd",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "100": [
-            "ships/moduleBaseDead",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "101": [
-            "ships/moduleBase",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "102": [
-            "ships/moduleRuined",
-            2,
-            0,
-            false,
-            true,
-            true
-        ],
-        "103": [
-            "ships/moduleStand",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "104": [
-            "ships/beamShip",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "105": [
-            "rockets/7",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "106": [
-            "ships/nstarhawk",
-            64,
-            0,
-            false,
-            true,
-            true
-        ],
-        "107": [
-            "ships/golitech",
-            64,
-            0,
-            false,
-            true,
-            true
-        ],
-        "108": [
-            "ships/constructionBot",
-            31,
-            0,
-            false
-        ],
-        "109": [
-            "ships/lspacefire",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "110": [
-            "ships/vreferee",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "111": [
-            "ships/vkick",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "112": [
-            "ships/vgoal",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "113": [
-            "ships/billboard",
-            0,
-            0,
-            false,
-            true,
-            true
-        ],
-        "114": [
-            "ships/devourer",
-            15,
-            0,
-            true,
-            true,
-            true
-        ],
-        "115": [
-            "ships/gpumpkinplayer",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "116": [
-            "ships/gpumpkinnpc",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "117": [
-            "drones/designs/havoc/zeus/6",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
-        "118": [
-            "ships/generalUfo",
-            30,
-            0,
-            true,
-            false,
-            true
-        ],
+        "1": {
+            "path": "ships/enforcer",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "2": {
+            "path": "ships/bastion",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "3": {
+            "path": "ships/vengeance",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "4": {
+            "path": "ships/avenger",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "5": {
+            "path": "ships/vengeancedef",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "6": {
+            "path": "ships/phoenix",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "7": {
+            "path": "ships/yamato",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "8": {
+            "path": "ships/defcom",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "9": {
+            "path": "ships/leonov",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "10": {
+            "path": "ships/liberator",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "11": {
+            "path": "ships/piranha",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "12": {
+            "path": "ships/nostromo",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "13": {
+            "path": "ships/bigboy",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "14": {
+            "path": "ships/goliath",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "15": {
+            "path": "ships/vhonor",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "16": {
+            "path": "ships/vexp",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "17": {
+            "path": "ships/gexp",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "18": {
+            "path": "ships/ghon",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "19": {
+            "path": "ships/goal",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "20": {
+            "path": "ships/kick",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "21": {
+            "path": "ships/referee",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "22": {
+            "path": "ships/america",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "23": {
+            "path": "ships/spectrum",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "24": {
+            "path": "ships/solace",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "25": {
+            "path": "ships/venom",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "26": {
+            "path": "ships/diminisher",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "27": {
+            "path": "ships/sentinel",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "28": {
+            "path": "ships/turkey",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "29": {
+            "path": "ships/vlight",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "30": {
+            "path": "ships/pusat",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "31": {
+            "path": "ships/surgeon",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "32": {
+            "path": "ships/streuner",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "33": {
+            "path": "ships/lordakia",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "34": {
+            "path": "ships/saimon",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "35": {
+            "path": "ships/mordon",
+            "end": 3,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "36": {
+            "path": "ships/devolarium",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "37": {
+            "path": "ships/sibelon",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "38": {
+            "path": "ships/sibelonit",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "39": {
+            "path": "ships/lordakium",
+            "end": 15,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "40": {
+            "path": "ships/kristallin",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "41": {
+            "path": "ships/kristallon",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "42": {
+            "path": "ships/cubikon",
+            "end": 0,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "43": {
+            "path": "ships/protegit",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "44": {
+            "path": "ships/vagrant",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "45": {
+            "path": "ships/marauder",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "46": {
+            "path": "ships/outcast",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "47": {
+            "path": "ships/convict",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "48": {
+            "path": "ships/hooligan",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "49": {
+            "path": "ships/ravager",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "50": {
+            "path": "ships/corsair",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "51": {
+            "path": "ships/falcon",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "52": {
+            "path": "ships/inter",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "53": {
+            "path": "ships/bara",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "54": {
+            "path": "ships/ani",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "55": {
+            "path": "ships/infernal",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "56": {
+            "path": "ships/scorcher",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "57": {
+            "path": "ships/melter",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "58": {
+            "path": "ships/devourer",
+            "end": 16,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "59": {
+            "path": "ships/strauner",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "60": {
+            "path": "ships/straunerboss",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "61": {
+            "path": "ships/saimonboss",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "62": {
+            "path": "ships/streunerboss",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "63": {
+            "path": "ships/bosslordakia",
+            "end": 32,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "65": {
+            "path": "ships/bossmordon",
+            "end": 16,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "66": {
+            "path": "ships/bossdevo",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "67": {
+            "path": "ships/bosssibelon",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "68": {
+            "path": "ships/bosssibelonit",
+            "end": 32,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "69": {
+            "path": "ships/bosslordakium",
+            "end": 22,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "70": {
+            "path": "ships/bosskristallin",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "71": {
+            "path": "ships/bosskristallon",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "72": {
+            "path": "ships/uberkristallin",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "73": {
+            "path": "ships/uberkristallon",
+            "end": 2,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "74": {
+            "path": "ships/kuc",
+            "end": 36,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "75": {
+            "path": "ships/bosskuc",
+            "end": 36,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "76": {
+            "path": "ships/demaner",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "77": {
+            "path": "ships/icy",
+            "end": 64,
+            "start": 0,
+            "isWebp": false,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "78": {
+            "path": "ships/vanquisher",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "79": {
+            "path": "ships/sovereign",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "80": {
+            "path": "ships/peacemaker",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "81": {
+            "path": "ships/saturn",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "82": {
+            "path": "ships/german",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "83": {
+            "path": "ships/referee",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "84": {
+            "path": "ships/petPro",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "85": {
+            "path": "ships/petAdvanced",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "86": {
+            "path": "ships/petFull",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "87": {
+            "path": "ships/petPro",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "88": {
+            "path": "ships/icemeteroid",
+            "end": 61,
+            "start": 1,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "89": {
+            "path": "ships/refereebot",
+            "end": 8,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "90": {
+            "path": "ships/robot",
+            "end": 8,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "91": {
+            "path": "ships/bronze",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "92": {
+            "path": "ships/silver",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "93": {
+            "path": "ships/gold",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "94": {
+            "path": "ships/gspace",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "95": {
+            "path": "ships/redg",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "96": {
+            "path": "ships/moduleXp",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "97": {
+            "path": "ships/moduleHp",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "98": {
+            "path": "ships/moduleDmg",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "99": {
+            "path": "ships/moduleShd",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "100": {
+            "path": "ships/moduleBaseDead",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "101": {
+            "path": "ships/moduleBase",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "102": {
+            "path": "ships/moduleRuined",
+            "end": 2,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "103": {
+            "path": "ships/moduleStand",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "104": {
+            "path": "ships/beamShip",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "105": {
+            "path": "rockets/7",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "106": {
+            "path": "ships/nstarhawk",
+            "end": 64,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "107": {
+            "path": "ships/golitech",
+            "end": 64,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "108": {
+            "path": "ships/constructionBot",
+            "end": 31,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "109": {
+            "path": "ships/lspacefire",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "110": {
+            "path": "ships/vreferee",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "111": {
+            "path": "ships/vkick",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "112": {
+            "path": "ships/vgoal",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "113": {
+            "path": "ships/billboard",
+            "end": 0,
+            "start": 0,
+            "isWebp": false,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "114": {
+            "path": "ships/devourer",
+            "end": 15,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": true,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "115": {
+            "path": "ships/gpumpkinplayer",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": false,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "116": {
+            "path": "ships/gpumpkinnpc",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "117": {
+            "path":"drones/designs/havoc/zeus/6",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "118": {
+            "path": "ships/generalUfo",
+            "end": 30,
+            "start": 0,
+            "isWebp": true,
+            "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
         "119": {
             "path": "ships/czech",
             "end": 64,
@@ -2590,54 +2943,72 @@
             "customExtension": null,
             "useAtlas": false
         },
-        "126": [
-            "ships/santaBot",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "127": [
-            "ships/santaPET",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "128": [
-            "ships/goliathFrost",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "129": [
-            "ships/vengeanceFrost",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "130": [
-            "ships/phoenixFrost",
-            64,
-            0,
-            true,
-            true,
-            true
-        ],
-        "131": [
-            "ships/xmasPET",
-            32,
-            0,
-            true,
-            true,
-            true
-        ],
+        "126": {
+            "path": "ships/santaBot",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "127": {
+            "path": "ships/santaPET",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "128": {
+            "path": "ships/goliathFrost",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "129": {
+            "path": "ships/vengeanceFrost",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "130": {
+            "path": "ships/phoenixFrost",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "131": {
+            "path": "ships/xmasPET",
+            "end": 32,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
         "132": {
             "path": "ships/spectrumFrost",
             "end": 64,
@@ -4512,7 +4883,7 @@
             ],
             "3": [
                 "pyroEffects/snowExplosion",
-                59,
+                39,
                 0,
                 true
             ],
@@ -4593,14 +4964,14 @@
         "hyperspace": {
             "1": [
                 "effects/hyperspaceStart",
-                40,
+                1,
                 1,
                 true
             ],
             "4": [
                 "effects/hyperspaceEnd",
-                44,
-                1,
+                27,
+                0,
                 true
             ]
         }
