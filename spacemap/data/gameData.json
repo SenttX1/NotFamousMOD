@@ -560,19 +560,19 @@
         },
         "85": {
             "engineClass": 9999,
-            "laserClass": 41,
+            "laserClass": 9999,
             "offsetId": 1,
             "clickRadius": 70
         },
         "86": {
             "engineClass": 9999,
-            "laserClass": 42,
+            "laserClass": 9999,
             "offsetId": 1,
             "clickRadius": 70
         },
         "87": {
             "engineClass": 9999,
-            "laserClass": 43,
+            "laserClass": 9999,
             "offsetId": 1,
             "expansionId": 9,
             "clickRadius": 70
