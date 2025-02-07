@@ -881,8 +881,8 @@
             "visualExpansions": [ 21 ]
         },
         "131": {
-            "engineClass": 38,
-            "laserClass": 43,
+            "engineClass": 9999,
+            "laserClass": 9999,
             "offsetId": 3,
             "clickRadius": 70
         },
