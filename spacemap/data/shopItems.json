@@ -290,42 +290,46 @@
             "icon": "vfrozen",
             "desc": "vfrozen_shop_desc"
         },
-        "132": {"name": "G-Spectrum-Frosty", "icon": "spectrum_frost", "desc": "spectrum_shop_desc"},
+        "132": {
+            "name": "G-Spectrum-Frosty",
+            "icon": "spectrum_frost",
+            "desc": "spectrum_shop_desc"
+        },
         "133": {
             "name": "G-Ignite",
             "icon": "ignite",
             "desc": "ignitet_shop_desc"
-          }
-          ,
-          "134": {
+        },
+        "134": {
             "name": "G-Red",
             "icon": "redg",
             "desc": "redg_shop_desc"
-          }
-          ,
-          "135": {
+        },
+        "135": {
             "name": "G-Orange",
             "icon": "orangeg",
             "desc": "orangeg_shop_desc"
-          }
-          ,
-          "136": {
+        },
+        "136": {
             "name": "G-Blue",
             "icon": "blueg",
             "desc": "blueg_shop_desc"
-          }
-          ,
-          "137": {
+        },
+        "137": {
             "name": "G-SolaceFrosty",
             "icon": "solaceFrosty",
             "desc": "solaceFrosty_shop_desc"
-          }
-          ,
-          "138": {
+        },
+        "138": {
             "name": "G-DiminisherFrosty",
             "icon": "diminisherFrosty",
             "desc": "diminisherFrosty_shop_desc"
-          }
+        },
+        "146": {
+            "name": "G-Valentine Venom",
+            "icon": "venomVAL",
+            "desc": "venomVAL_shop_desc"
+        }
     },
     "2": {
         "1": {

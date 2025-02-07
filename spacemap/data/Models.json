@@ -2493,8 +2493,8 @@
             "useAtlas": false
         },
         "85": {
-            "path": "ships/petAdvanced",
-            "end": 32,
+            "path": "ships/phoenixPET",
+            "end": 64,
             "start": 0,
             "isWebp": true,
             "preload": true,
@@ -2504,8 +2504,8 @@
             "useAtlas": false
         },
         "86": {
-            "path": "ships/petFull",
-            "end": 32,
+            "path": "ships/greenPET",
+            "end": 64,
             "start": 0,
             "isWebp": true,
             "preload": true,
@@ -2515,8 +2515,8 @@
             "useAtlas": false
         },
         "87": {
-            "path": "ships/petPro",
-            "end": 32,
+            "path": "ships/redPET",
+            "end": 64,
             "start": 0,
             "isWebp": true,
             "preload": true,
@@ -2845,7 +2845,7 @@
             "useAtlas": false
         },
         "117": {
-            "path":"drones/designs/havoc/zeus/6",
+            "path": "drones/designs/havoc/zeus/6",
             "end": 32,
             "start": 0,
             "isWebp": true,
@@ -3000,7 +3000,7 @@
         },
         "131": {
             "path": "ships/xmasPET",
-            "end": 32,
+            "end": 64,
             "start": 0,
             "isWebp": true,
             "preload": true,
@@ -3081,6 +3081,17 @@
             "start": 0,
             "isWebp": true,
             "preload": false,
+            "unload": true,
+            "isSingleFile": false,
+            "customExtension": null,
+            "useAtlas": false
+        },
+        "146": {
+            "path": "ships/venomVAL",
+            "end": 64,
+            "start": 0,
+            "isWebp": true,
+            "preload": true,
             "unload": true,
             "isSingleFile": false,
             "customExtension": null,
@@ -3430,6 +3441,12 @@
                 12,
                 1,
                 false
+            ],
+            "9999": [
+                "portals/jumpAnimation9999",
+                1,
+                1,
+                true
             ]
         },
         "portal": {

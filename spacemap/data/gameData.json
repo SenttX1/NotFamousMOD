@@ -85,8 +85,8 @@
             "clickRadius": 60
         },
         "14": {
-            "engineClass": 1,
-            "laserClass": 1,
+            "engineClass": 11,
+            "laserClass": 11,
             "offsetId": 1,
             "clickRadius": 70
         },
@@ -524,7 +524,7 @@
         },
         "79": {
             "engineClass": 37,
-            "laserClass": "37",
+            "laserClass": 37,
             "offsetId": 1,
             "clickRadius": 70
         },
@@ -556,23 +556,22 @@
             "engineClass": 38,
             "laserClass": 43,
             "offsetId": 1,
-            "clickRadius": 70,
-            "visualExpansions": [ 9 ]
+            "clickRadius": 70
         },
         "85": {
-            "engineClass": 38,
+            "engineClass": 9999,
             "laserClass": 41,
             "offsetId": 1,
             "clickRadius": 70
         },
         "86": {
-            "engineClass": 38,
+            "engineClass": 9999,
             "laserClass": 42,
             "offsetId": 1,
             "clickRadius": 70
         },
         "87": {
-            "engineClass": 38,
+            "engineClass": 9999,
             "laserClass": 43,
             "offsetId": 1,
             "expansionId": 9,
@@ -618,7 +617,7 @@
         "94": {
             "engineClass": 42,
             "laserClass": 82,
-            "offsetId": 1,
+            "offsetId": 38,
             "clickRadius": 70,
             "destroyExplosion": 4,
             "visualExpansions": [ 24 ]
@@ -885,8 +884,7 @@
             "engineClass": 38,
             "laserClass": 43,
             "offsetId": 3,
-            "clickRadius": 70,
-            "visualExpansions": [ 9 ]
+            "clickRadius": 70
         },
         "132": {
             "engineClass": 14,
@@ -937,7 +935,7 @@
             "engineClass": 12,
             "laserClass": 12,
             "offsetId": 15,
-            "engineTop": false,
+            "engineTop": true,
             "frostyTrail": true,
             "frostyTrailTime": 500,
             "destroyExplosion": 3,
@@ -947,11 +945,18 @@
             "engineClass": 13,
             "laserClass": 13,
             "offsetId": 17,
-            "engineTop": false,
+            "engineTop": true,
             "frostyTrail": true,
             "frostyTrailTime": 500,
             "destroyExplosion": 3,
             "destroyShockwave": false
+        },
+        "146": {
+            "engineClass": 16,
+            "laserClass": 16,
+            "offsetId": 16,
+            "clickRadius": 70,
+            "visualExpansions": [ 24 ]
         }
     },
     "offsets": {
@@ -998,7 +1003,9 @@
             "33": { "nickY": 0 },
             "34": { "nickY": 400 },
             "35": { "nickY": -20 },
-            "37": { "nickY": 75 }
+            "37": { "nickY": 75 },
+            "38": { "nickY": 55 }
+
         },
         "ENGINE_OFFSETS": {
             "0": {
@@ -1964,13 +1971,13 @@
         "RLAUNCHER_RADIUS": 500,
         "BARRIER_RADIUS": 10,
         "NICK_Y": 120,
-        "SHIP_INFO_BORDER": 3,
+        "SHIP_INFO_BORDER": 3.25,
         "LOCKON_RING": 15,
         "DRONE_DISTANCE": 100,
         "DRONE_SIMPLE_Y": -5,
-        "DRONE_SIMPLE_MARGIN_X": 3,
-        "DRONE_SIMPLE_FONT": "12px sans-serif",
-        "SKILL_VISUAL_FONT": "bold 10px CorpFontRegular",
+        "DRONE_SIMPLE_MARGIN_X": 2.5,
+        "DRONE_SIMPLE_FONT": "10.5px sans-serif",
+        "SKILL_VISUAL_FONT": "bold 0px CorpFontRegular",
         "USERNAME_FONT": "550 17px CorpFontUsername",
         "TITLE_FONT": "normal 14px CorpFontRegular",
         "TITLE_FONT_IMPORTANT": "normal 14px CorpFontRegular",
@@ -2056,8 +2063,8 @@
         "13": {
             "name": "portal_tdm",
             "sprite_active": 1,
-            "sprite_idle": 1,
-            "jump_animation": 0
+            "sprite_idle": 6,
+            "jump_animation": 9999
         },
         "14": {
             "name": "portal_krono",
@@ -2220,6 +2227,7 @@
     "gameConfig": {
         "showPortalAnim": true,
         "showPortalBubble": false,
+        "designsEnabled": true,
         "allowLasersChange": true,
         "slowdownForceField": true,
         "slowdownEngineDisrupt": false,
